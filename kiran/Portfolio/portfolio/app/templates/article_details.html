@@ -1,0 +1,108 @@
+<html lang="en">
+ <head>
+  <meta charset="utf-8"/>
+  <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+  <title>
+   {{aricle.title}}
+  </title>
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" rel="stylesheet"/>
+  <style>
+   body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #ffffff;
+        }
+        .container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .header {
+            text-align: center;
+            border-bottom: 2px solid #000;
+            padding-bottom: 10px;
+            margin-bottom: 20px;
+        }
+        .header h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+        .header p {
+            font-size: 14px;
+            margin: 5px 0;
+        }
+        .headline {
+            text-align: center;
+            font-size: 24px;
+            font-weight: bold;
+            margin: 20px 0;
+        }
+        .content {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+        .column {
+            width: 30%;
+            margin-bottom: 20px;
+        }
+        .column img {
+            width: 100%;
+            height: auto;
+        }
+        .column p {
+            font-size: 14px;
+            line-height: 1.6;
+        }
+        .caption {
+            text-align: center;
+            font-size: 14px;
+            margin: 10px 0;
+        }
+        @media (max-width: 768px) {
+            .column {
+                width: 100%;
+            }
+        }
+  </style>
+ </head>
+ <body>
+  <div class="container">
+   <div class="header">
+    <h1>
+     {{article.heading}}
+    </h1>
+    <p>
+     {{article.newspaper_name}}
+    </p>
+    <p>
+     {{article.newspaper_email}}
+    </p>
+   </div>
+   <div class="headline">
+    {{article.title}}
+   </div>
+   <div class="content">
+    <div class="column">
+     <p>
+      {{article.first_para}}
+     </p>
+    </div>
+    <div class="column">
+     <p>
+      {{article.second_para}}
+    </div>
+    <div class="column">
+     <img alt="Silhouette of a person against an orange gradient background" height="200" src="{{ article.image.url }}" width="300"/>
+     <div class="caption">
+      {{article.third_para}}
+     </div>
+     <p>
+      {{article.fourth_para}}
+     </p>
+    </div>
+   </div>
+  </div>
+ </body>
+</html>
