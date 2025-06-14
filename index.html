@@ -13,51 +13,53 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="{% static 'css/Style.css' %}">
+
+
 </head>
 
 <body>
   <!-- navbar section start -->
-<nav class="navbar navbar-expand-lg new_navbar">
-  <div class="container d-flex align-items-center justify-content-between"> <!-- Flexbox for alignment -->
+  <nav class="navbar navbar-expand-lg new_navbar">
+    <div class="container d-flex align-items-center justify-content-between"> <!-- Flexbox for alignment -->
       <div class="d-flex align-items-center"> <!-- Flexbox for logo and brand -->
-          <!-- <img src="{% static 'images/Flag.gif' %}" alt="Nepal Flag" class="nepal-flag" /> -->
-          <!-- <a class="navbar-brand crumble" href="#">KIRAN PAUDEL</a> -->
+        <!-- <img src="{% static 'images/Flag.gif' %}" alt="Nepal Flag" class="nepal-flag" /> -->
+        <!-- <a class="navbar-brand crumble" href="#">KIRAN PAUDEL</a> -->
       </div>
-      
+
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
       </button>
-      
+
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <img src="image/Flag.gif" alt="Nepal Flag" class="nepal-flag" />
         <a class="navbar-brand crumble" href="#">KIRAN PAUDEL</a>
-          <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
-              <li class="nav-item">
-                  <a class="nav-link" href="#Home">Home</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#about">About Me</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#Education">Education</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#contact">Contact</a>
-              </li>
-              <li class="nav-item">
-                  <a class="nav-link" href="#video-section">Works</a>
-              </li>
-          </ul>
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" href="#Home">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About Me</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#Education">Education</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#contact">Contact</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#video-section">Works</a>
+          </li>
+        </ul>
       </div>
-  </div>
-</nav>
+    </div>
+  </nav>
 
-  
-<!-- navbar section end -->
 
-<!-- Home section start -->
-<section class="my-5" id="Home">
+  <!-- navbar section end -->
+
+  <!-- Home section start -->
+  <section class="my-5" id="Home">
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
@@ -65,49 +67,62 @@
           <p class="fw-bold mt-2">
             Sub Editor at Kantipur Media Group
             <br>
-            <small> (Lead :- Judicial Affairs, Foreign Affairs, Legal reforms , Human Rights and Constitutional Bodies )| Researcher | Public Relation Officer | IT enthusiast</small>
+            <small> (Lead :- Judicial Affairs, Foreign Affairs, Legal reforms , Human Rights and Constitutional Bodies
+              )| Researcher | Public Relation Officer | IT enthusiast</small>
           </p>
         </div>
         <div class="col-md-6 d-flex justify-content-end align-items-center">
-          
+
           <img class="guitar-pick object-fit-cover border" src="image/image.png" alt="Kiran Paudel">
         </div>
-           <!-- Socials -->
-          <div class="card">
-            <div class="background">
-            </div>
-            <div class="logo">
+        <!-- Socials -->
+        <div class="card">
+          <div class="background">
+          </div>
+          <div class="logo">
             CONNECT
-            </div>
-
-
-            <a href="https://www.linkedin.com/in/kiran-paudel/"><div class="box box1"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-              <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z"/>
-            </svg></span></div></a>
-
-            <a href="https://www.facebook.com/kiransharmapaudel"><div class="box box2"> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-              <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
-            </svg></span></div></a>
-      
-            <a href="https://www.instagram.com/_.kiranpaudel._/"><div class="box box3"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
-              <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
-            </svg></span></div></a>
-      
-            
-      
-            
-           
-      
-            
           </div>
-          </div>
+
+
+          <a href="https://www.linkedin.com/in/kiran-paudel/">
+            <div class="box box1"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
+                  <path
+                    d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854zm4.943 12.248V6.169H2.542v7.225zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248S2.4 3.226 2.4 3.934c0 .694.521 1.248 1.327 1.248zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016l.016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225z" />
+                </svg></span></div>
+          </a>
+
+          <a href="https://www.facebook.com/kiransharmapaudel">
+            <div class="box box2"> <span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                  <path
+                    d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951" />
+                </svg></span></div>
+          </a>
+
+          <a href="https://www.instagram.com/_.kiranpaudel._/">
+            <div class="box box3"><span class="icon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                  fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                  <path
+                    d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334" />
+                </svg></span></div>
+          </a>
+
+
+
+
+
+
+
+        </div>
       </div>
+    </div>
     </div>
   </section>
   <!-- Home section ends -->
 
-<!-- About section start -->
-<section class="my-5 mt-5" id="about">
+  <!-- About section start -->
+  <section class="my-5 mt-5" id="about">
     <div class="about text-center">
       <h1 class="fw-bold text-capitalize">About Me</h1>
     </div>
@@ -116,28 +131,33 @@
         <div class="col-md-6">
           <div class="flip-card mx-auto my-5 object-fit-cover">
             <div class="flip-card-inner">
-                <div class="flip-card-front">
-                  <img src="image/kiran_about.png" class="img-fluid about-img object-fit-cover" alt="Kiran Paudel">
-                </div>
-                <div class="flip-card-back">
-                  <img src="image/k1.jpg" class="img-fluid about-img" alt="Kiran Paudel">
-                </div>
+              <div class="flip-card-front">
+                <img src="image/kiran_about.png" class="img-fluid about-img object-fit-cover" alt="Kiran Paudel">
+              </div>
+              <div class="flip-card-back">
+                <img src="image/k1.jpg" class="img-fluid about-img" alt="Kiran Paudel">
+              </div>
             </div>
-        </div>
-          
+          </div>
+
           <!-- <img src="{% static 'images/kiran_about.png' %}" class="img-fluid about-img" alt="Kiran Paudel"> -->
         </div>
         <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
           <div class="about-text">
             <p class="text-start">
-              I am a versatile professional, primarily a journalist, content creator, and researcher with a passion for storytelling and uncovering facts. Currently, I lead the coverage of Judicial Affairs, Foreign Affairs, Constitutional Bodies, and Diplomacy at Kantipur Television. 
+              I am a versatile professional, primarily a journalist, content creator, and researcher with a passion for
+              storytelling and uncovering facts. Currently, I lead the coverage of Judicial Affairs, Foreign Affairs,
+              Constitutional Bodies, and Diplomacy at Kantipur Television.
             </p>
             <p class="text-start">
-              In the past, I have led political, administrative, judicial, and diplomatic affairs at Annapurna Media Network (AP1 HD) and Annapurna Express. A graduate of Computer Application from Tribhuvan University, my background in information technology enhances my ability to bridge the gap between technology and effective communication, allowing me to explore the dynamic relationship between technology and society.
+              In the past, I have led political, administrative, judicial, and diplomatic affairs at Annapurna Media
+              Network (AP1 HD) and Annapurna Express. A graduate of Computer Application from Tribhuvan University, my
+              background in information technology enhances my ability to bridge the gap between technology and
+              effective communication, allowing me to explore the dynamic relationship between technology and society.
             </p>
             <!-- <a href="https://kantipurtv.com/author/kiran-poudel/" class="button btn-outline-success mx-auto" data-bs-toggle="tooltip" data-bs-title="Bibliography" target="_blank" rel="noopener noreferrer">View Bibliography</a> -->
-             <!-- From Uiverse.io by namecho --> 
-             <a href="https://kantipurtv.com/author/kiran-poudel/" target="_blank" rel="noopener noreferrer">
+            <!-- From Uiverse.io by namecho -->
+            <a href="https://kantipurtv.com/author/kiran-poudel/" target="_blank" rel="noopener noreferrer">
               <button data-bs-toggle="tooltip" data-bs-title="Bibliography">
                 View Bibliography
               </button>
@@ -147,165 +167,258 @@
       </div>
     </div>
   </section>
-<!-- About section end -->
+  <!-- About section end -->
 
 
-<!-- video section start -->
+  <!-- video section start -->
   <section class="my-6" id="video-section">
     <div class="about text-center">
       <h1 class="fw-bold text-capitalize">Work</h1>
     </div>
     <div class="container">
-        <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="video-item">
-                    <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/sesR9mBo0gk"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=v7u5qxqr8pY">{{कानुनी रुपमै अख्तियारलाई कसरी बलियो र प्रभावकारी बनाउने ? KantipurSamachar	 }}</a>
-                    </div>
-                </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="video-item">
+            <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/sesR9mBo0gk"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-details">
+              <a href="https://www.youtube.com/watch?v=v7u5qxqr8pY">कानुनी रुपमै अख्तियारलाई कसरी बलियो र प्रभावकारी
+                बनाउने ? KantipurSamachar </a>
             </div>
-            <div class="col-md-6 mb-4">
-                <div class="video-item">
-                    <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/v7u5qxqr8pY"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <div class="video-details">
-                        <a href="https://www.youtube.com/watch?v=v7u5qxqr8pY">{{ 	कानुनी रुपमै अख्तियारलाई कसरी बलियो र प्रभावकारी बनाउने ? KantipurSamachar	}}</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        <div class="row">
-            <div class="col-md-6 mb-4">
-                <div class="video-item">
-                    <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/8cw4G8w9cIw"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <div class="video-details">
-                        <a href="https://www.facebook.com/kiransharmapaudel/videos/1278503786822916">{{	वाइडबडी प्रकरण: के के हुन् त फैसला गर्दा अदालतले टेकेका आधार ? }}</a>
-                    </div>
-                </div>
+        <div class="col-md-6 mb-4">
+          <div class="video-item">
+            <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/v7u5qxqr8pY"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-details">
+              <a href="https://www.youtube.com/watch?v=v7u5qxqr8pY"> कानुनी रुपमै अख्तियारलाई कसरी बलियो र प्रभावकारी
+                बनाउने ? KantipurSamachar </a>
             </div>
-              <div class="col-md-6 mb-4">
-                <div class="video-item">
-                    <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/ShpMbPSZkGg"
-                        frameborder="0"
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowfullscreen></iframe>
-                    <div class="video-details">
-                        <a href="https://www.facebook.com/kiransharmapaudel/videos/8744293245678279">{{ Kantipur TV HD - Bridging the Divide: How the Growing Rift Between Nepal's Bench and Bar is Stalling Judicial Appointments, Eroding Public}}</a>
-                    </div>
-                </div>
-            </div>
+          </div>
         </div>
-        
+      </div>
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="video-item">
+            <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/8cw4G8w9cIw"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-details">
+              <a href="https://www.facebook.com/kiransharmapaudel/videos/1278503786822916">वाइडबडी प्रकरण: के के हुन् त
+                फैसला गर्दा अदालतले टेकेका आधार ? </a>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="video-item">
+            <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/ShpMbPSZkGg"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-details">
+              <a href="https://www.facebook.com/kiransharmapaudel/videos/8744293245678279">Kantipur TV HD - Bridging the
+                Divide: How the Growing Rift Between Nepal's Bench and Bar is Stalling Judicial Appointments, Eroding
+                Public</a>
+            </div>
+          </div>
+        </div>
+      </div>
+
 
     </div>
-</section>
-<!-- video section end -->
+  </section>
+  <!-- video section end -->
 
-
-<!-- Education section  -->
- <section class="my-5" id="Education">
-  <h1 class="text-center text-bold"> Education</h1>
-  <div class="timeline-container">
-    <div class="timeline-item">
-        <div class="timeline-content">
-            <h3>SEE</h3>
-            <p>Ganga sec. school<br>High School</p>
-            <div class="date">
-                <i class="far fa-calendar-alt"></i>
-                <span>- 2017</span>
+  <!-- Podcast section start -->
+  <section class="my-6" id="podcast-section">
+    <div class="about text-center">
+      <h1 class="fw-bold text-capitalize">Recent Podcast</h1>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6 mb-4">
+          <a href="https://www.facebook.com/kiransharmapaudel/posts/pfbid0K3vMLzXaVunGoWLQnSiT4NkjApkb5JHSfKkrRoMuYnx9KxFwb7b5JU6aPz4GPsi4l?rdid=jyB0L0VTo8QroVpv#"
+            target="_blank" rel="noopener noreferrer" class="podcast-link"
+            style="text-decoration: none; color: inherit;">
+            <div class="video-item" style="cursor: pointer;">
+              <img src="image/thumnail1.JPG" alt="Podcast about scam story with ship in courtyard"
+                class="img-fluid rounded" style="width: 100%; height: auto; border-radius: 10px;">
+              <div class="video-details mt-2 text-center">
+                <h3>आँगनमा जहाज राखेर उडानको सपना देखाउँदै ठगी गर्नेको वृत्तान्तव्यस्त शहरको बीचमा ठूलो बोर्ड राखेर एउटा
+                  व्यवसाय चलिरहेको छ।</h3>
+              </div>
             </div>
-            <a href="#" class="view-more" data-title="SEE" data-content="Ganga sec. school<br>High School<br>- 2017">View More <i class="fas fa-arrow-right"></i></a>
+          </a>
+        </div>
+        <div class="col-md-6 mb-4">
+          <a href="https://www.facebook.com/kiransharmapaudel/videos/1957027408378978/?rdid=cfxlw67mAbOTn28K#"
+            target="_blank" rel="noopener noreferrer" class="podcast-link"
+            style="text-decoration: none; color: inherit;">
+            <div class="video-item" style="cursor: pointer;">
+              <img src="image/thumnail2.JPG" alt="Podcast about transportation business syndicate reemergence"
+                class="img-fluid rounded" style="width: 100%; height: auto; border-radius: 10px;">
+              <div class="video-details mt-2 text-center">
+                <h3>यातायात व्यवसायमा सिन्डिकेटको पुनरागमन: यसरी उल्लंघन भयो संविधान र सर्वोच्च</h3>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- podcast section end -->
+
+
+  <!-- Education section  -->
+  <section class="my-5" id="Education">
+    <h1 class="text-center text-bold"> Education</h1>
+    <div class="timeline-container">
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>SEE</h3>
+          <p>Ganga sec. school<br>High School</p>
+          <div class="date">
+            <i class="far fa-calendar-alt"></i>
+            <span>- 2017</span>
+          </div>
+          <a href="#" class="view-more" data-title="SEE" data-content="Ganga sec. school<br>High School<br>- 2017">View
+            More <i class="fas fa-arrow-right"></i></a>
         </div>
         <div class="timeline-line">
-            <div class="timeline-dot"></div>
-            <div class="timeline-dot"></div>
-            <div class="timeline-dot"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-dot"></div>
+          <div class="timeline-dot"></div>
         </div>
-    </div>
-    <div class="timeline-item">
+      </div>
+      <div class="timeline-item">
         <div class="timeline-content">
-            <h3>Class 12th</h3>
-            <p>Trinity Int. College<br>Pre University College</p>
-            <div class="date">
-                <i class="far fa-calendar-alt"></i>
-                <span>- 2020</span>
-            </div>
-            <a href="#" class="view-more" data-title="Class 12th" data-content="Trinity Int. College<br>Pre University College<br>- 2020">View More <i class="fas fa-arrow-right"></i></a>
+          <h3>Class 12th</h3>
+          <p>Trinity Int. College<br>Pre University College</p>
+          <div class="date">
+            <i class="far fa-calendar-alt"></i>
+            <span>- 2020</span>
+          </div>
+          <a href="#" class="view-more" data-title="Class 12th"
+            data-content="Trinity Int. College<br>Pre University College<br>- 2020">View More <i
+              class="fas fa-arrow-right"></i></a>
         </div>
-    </div>
-    <div class="timeline-item">
+      </div>
+      <div class="timeline-item">
         <div class="timeline-content">
-            <h3>College</h3>
-            <p>United College, Kumaripati</p>
-            <div class="date">
-                <i class="far fa-calendar-alt"></i>
-                <span>2020 - 2025</span>
-            </div>
-            <a href="#" class="view-more" data-title="College" data-content="United College, Kumaripati<br>2020 - 2024">View More <i class="fas fa-arrow-right"></i></a>
+          <h3>College</h3>
+          <p>United College, Kumaripati</p>
+          <div class="date">
+            <i class="far fa-calendar-alt"></i>
+            <span>2020 - 2025</span>
+          </div>
+          <a href="#" class="view-more" data-title="College"
+            data-content="United College, Kumaripati<br>2020 - 2024">View More <i class="fas fa-arrow-right"></i></a>
         </div>
+      </div>
     </div>
-</div>
 
-<div class="overlay"></div>
-<div class="popup">
-    <h3 id="popup-title"></h3>
-    <p id="popup-content"></p>
-    <div class="popup-close">
+    <div class="overlay"></div>
+    <div class="popup">
+      <h3 id="popup-title"></h3>
+      <p id="popup-content"></p>
+      <div class="popup-close">
         <a href="#" id="popup-close">Close</a>
+      </div>
     </div>
-</div>
- </section>
- <!-- end -->
+  </section>
+  <!-- end -->
+  <!-- Certifications & Achievements and Honors & Awards section start -->
+  <section class="my-6" id="certifications-awards" style="margin-top: 60px;">
+    <div class="about text-center">
+      <h1 class="fw-bold text-capitalize">Certifications & Achievements</h1>
+    </div>
+    <div class="container" style="max-width: 700px; margin-top: 30px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>Coming Soon</strong>
+        </li>
+
+      </ul>
+      <div class="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+      </div>
+    </div>
+    <div class="about text-center" style="margin-top: 60px;">
+      <h1 class="fw-bold text-capitalize">Honors & Awards</h1>
+    </div>
+    <div class="container" style="max-width: 700px; margin-top: 30px;">
+      <ul class="list-group list-group-flush">
+        <li class="list-group-item">
+          <strong>Coming Soon</strong>
+        </li>
+
+      </ul>
+      <div class="wrapper">
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="circle"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+        <div class="shadow"></div>
+      </div>
+    </div>
+  </section>
+  <!-- Certifications & Achievements and Honors & Awards section end -->
+
+
   <!-- contact section start -->
-  
+
   <section class="my-5" id="contact">
     <div class="about text-center">
       <h1 class="fw-bold text-capitalize">Contact</h1>
     </div>
     <div class="container">
-        <div class="contact-info">
-            <div>
-                <i class="fas fa-phone-alt"></i>
-                <h3>Contact Me</h3>
-                <p>9818581515</p>
-            </div>
-            <div>
-                <i class="fas fa-envelope"></i>
-                <h3>Email</h3>
-                <p>workwithkiran01@gmail.com</p>
-            </div>
-            <div>
-                <i class="fas fa-map-marker-alt"></i>
-                <h3>Location</h3>
-                <p>Kathmandu, Nepal</p>
-            </div>
-           </div> 
-        
-        <!-- Update the form action and method -->
-        <form method="POST" action="{% url 'home' %}">
-           
-            <div class="contact-form">
-                <input required placeholder="Name" type="text" class="input" name="name">
-                <input required placeholder="Email" type="email" class="input" name="email">
-                <textarea required placeholder="Say Hello" rows="10" cols="30" id="message" name="message" class="textarea"></textarea>
-                <div class="button-container">
-                    <input type="submit" value="Send" class="send-button">
-                </div>
-            </div>
-        </form>
+      <div class="contact-info">
+        <div>
+          <i class="fas fa-phone-alt"></i>
+          <h3>Contact Me</h3>
+          <p>9818581515</p>
+        </div>
+        <div>
+          <i class="fas fa-envelope"></i>
+          <h3>Email</h3>
+          <p>workwithkiran01@gmail.com</p>
+        </div>
+        <div>
+          <i class="fas fa-map-marker-alt"></i>
+          <h3>Location</h3>
+          <p>Kathmandu, Nepal</p>
+        </div>
+      </div>
+
+      <!-- Update the form action and method -->
+      <form method="POST" action="{% url 'home' %}">
+
+        <div class="contact-form">
+          <input required placeholder="Name" type="text" class="input" name="name">
+          <input required placeholder="Email" type="email" class="input" name="email">
+          <textarea required placeholder="Say Hello" rows="10" cols="30" id="message" name="message"
+            class="textarea"></textarea>
+          <div class="button-container">
+            <input type="submit" value="Send" class="send-button">
+          </div>
+        </div>
+      </form>
     </div>
-    
-</section>
-<!-- {% if messages %}
+
+  </section>
+  <!-- {% if messages %}
     <div class="messages">
         {% for message in messages %}
             <div class="alert {% if message.tags %}alert-{{ message.tags }}{% endif %}">
@@ -323,248 +436,300 @@
     crossorigin="anonymous"></script>
   <script>const tooltipTriggerList = document.querySelectorAll('[data-bs-toggle="tooltip"]')
     const tooltipList = [...tooltipTriggerList].map(tooltipTriggerEl => new bootstrap.Tooltip(tooltipTriggerEl))</script>
-    <script>function toggleIcons() {
-    const socialButtons = document.getElementById('socialButtons');
-    if (socialButtons.style.display === 'none' || socialButtons.style.display === '') {
+  <script>function toggleIcons() {
+      const socialButtons = document.getElementById('socialButtons');
+      if (socialButtons.style.display === 'none' || socialButtons.style.display === '') {
         socialButtons.classList.add('show'); // Add class to show icons
         socialButtons.style.display = 'flex'; // Show the icons
-    } else {
+      } else {
         socialButtons.classList.remove('show'); // Remove class to hide icons
         setTimeout(() => {
-            socialButtons.style.display = 'none'; // Hide the icons after animation
+          socialButtons.style.display = 'none'; // Hide the icons after animation
         }, 300); // Match the timeout with the CSS transition duration
-    }
-}</script>
-<script>
-        document.querySelectorAll('.skill-item').forEach(item => {
-            item.addEventListener('click', () => {
-                const subSkills = item.querySelector('.sub-skills');
-                const icon = item.querySelector('i');
-                if (subSkills.style.display === 'none' || subSkills.style.display === '') {
-                    subSkills.style.display = 'block';
-                    icon.classList.remove('fa-chevron-down');
-                    icon.classList.add('fa-chevron-up');
-                } else {
-                    subSkills.style.display = 'none';
-                    icon.classList.remove('fa-chevron-up');
-                    icon.classList.add('fa-chevron-down');
-                }
-            });
-        });
-    </script>
-    <script>
-        document.querySelectorAll('.view-more').forEach(item => {
-            item.addEventListener('click', event => {
-                event.preventDefault();
-                const title = item.getAttribute('data-title');
-                const content = item.getAttribute('data-content');
-                document.getElementById('popup-title').innerHTML = title;
-                document.getElementById('popup-content').innerHTML = content;
-                document.querySelector('.overlay').style.display = 'block';
-                document.querySelector('.popup').style.display = 'block';
-            });
-        });
+      }
+    }</script>
+  <script>
+    document.querySelectorAll('.skill-item').forEach(item => {
+      item.addEventListener('click', () => {
+        const subSkills = item.querySelector('.sub-skills');
+        const icon = item.querySelector('i');
+        if (subSkills.style.display === 'none' || subSkills.style.display === '') {
+          subSkills.style.display = 'block';
+          icon.classList.remove('fa-chevron-down');
+          icon.classList.add('fa-chevron-up');
+        } else {
+          subSkills.style.display = 'none';
+          icon.classList.remove('fa-chevron-up');
+          icon.classList.add('fa-chevron-down');
+        }
+      });
+    });
+  </script>
+  <script>
+    document.querySelectorAll('.view-more').forEach(item => {
+      item.addEventListener('click', event => {
+        event.preventDefault();
+        const title = item.getAttribute('data-title');
+        const content = item.getAttribute('data-content');
+        document.getElementById('popup-title').innerHTML = title;
+        document.getElementById('popup-content').innerHTML = content;
+        document.querySelector('.overlay').style.display = 'block';
+        document.querySelector('.popup').style.display = 'block';
+      });
+    });
 
-        document.getElementById('popup-close').addEventListener('click', event => {
-            event.preventDefault();
-            document.querySelector('.overlay').style.display = 'none';
-            document.querySelector('.popup').style.display = 'none';
-        });
+    document.getElementById('popup-close').addEventListener('click', event => {
+      event.preventDefault();
+      document.querySelector('.overlay').style.display = 'none';
+      document.querySelector('.popup').style.display = 'none';
+    });
 
-        document.querySelector('.overlay').addEventListener('click', () => {
-            document.querySelector('.overlay').style.display = 'none';
-            document.querySelector('.popup').style.display = 'none';
-        });
-    </script>
-    <Script>
-        const card = document.querySelector('.card');
+    document.querySelector('.overlay').addEventListener('click', () => {
+      document.querySelector('.overlay').style.display = 'none';
+      document.querySelector('.popup').style.display = 'none';
+    });
+  </script>
+  <Script>
+    const card = document.querySelector('.card');
 
-        card.addEventListener('click', () => {
-          // Toggle the 'active' class on the card
-          card.classList.toggle('active');
-        });
-        card.addEventListener('click', () => {
-          // Toggle the 'active' class on the card
-          card.classList.toggle('active');
-        });
+    card.addEventListener('click', () => {
+      // Toggle the 'active' class on the card
+      card.classList.toggle('active');
+    });
+    card.addEventListener('click', () => {
+      // Toggle the 'active' class on the card
+      card.classList.toggle('active');
+    });
 
 
-        card.addEventListener('click', (e) => {
-            // Check if the click event is on the card itself, not on a child element
-            if (e.target === card) {
-              // Check if the card is already active
-              if (card.classList.contains('active')) {
-                // Remove the 'active' class from the card
-                card.classList.remove('active');
-              } else {
-                // Add the 'active' class to the card
-                card.classList.add('active');
-              }
-            }
-          });
+    card.addEventListener('click', (e) => {
+      // Check if the click event is on the card itself, not on a child element
+      if (e.target === card) {
+        // Check if the card is already active
+        if (card.classList.contains('active')) {
+          // Remove the 'active' class from the card
+          card.classList.remove('active');
+        } else {
+          // Add the 'active' class to the card
+          card.classList.add('active');
+        }
+      }
+    });
 
-        
-      </Script>
+
+  </Script>
+
 </body>
 
-  <style>
-      
-/* Navbar Styles */
-.navbar {
-   display: flex; /* Use flexbox for alignment */
-   align-items: center; /* Center items vertically */
-   padding: 30px 30px; /* Adjust padding for better spacing */
-}
+<style>
+  /* Navbar Styles */
+  .navbar {
+    display: flex;
+    /* Use flexbox for alignment */
+    align-items: center;
+    /* Center items vertically */
+    padding: 30px 30px;
+    /* Adjust padding for better spacing */
+  }
 
-.nepal-flag {
-   width: 15px; /* Adjust the size as needed */
-   height: auto; /* Maintain aspect ratio */
-   margin-top: 10px;
-   margin-left: 30px;
-  
-}
+  .nepal-flag {
+    width: 15px;
+    /* Adjust the size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-top: 10px;
+    margin-left: 30px;
 
-.navbar-brand {
-   font-size: 1.5rem; /* Adjust font size for brand */
-   font-weight: bold;
-   color: #100505;
-   display: flex; /* Use flexbox for alignment */
-   align-items: center; /* Center the brand vertically */
-   margin-left: 30px;
-}
+  }
 
-/* Other navbar links */
-.navbar-nav {
-   display: flex; /* Use flexbox for nav links */
-   flex-grow: 1; /* Allow nav items to grow and take available space */
-   justify-content: center; /* Center nav items */
-   align-items: center; /* Center nav items vertically */
-}
+  .navbar-brand {
+    font-size: 1.5rem;
+    /* Adjust font size for brand */
+    font-weight: bold;
+    color: #100505;
+    display: flex;
+    /* Use flexbox for alignment */
+    align-items: center;
+    /* Center the brand vertically */
+    margin-left: 30px;
+  }
 
-.nav-item {
-   margin: 0 10px; /* Space between nav items */
-}
+  /* Other navbar links */
+  .navbar-nav {
+    display: flex;
+    /* Use flexbox for nav links */
+    flex-grow: 1;
+    /* Allow nav items to grow and take available space */
+    justify-content: center;
+    /* Center nav items */
+    align-items: center;
+    /* Center nav items vertically */
+  }
 
-.nav-link {
-   color: #160202; /* Change link color */
-   font-size: 1rem; /* Adjust font size for better mobile readability */
-}
+  .nav-item {
+    margin: 0 10px;
+    /* Space between nav items */
+  }
 
-.nav-link:hover {
-   color: #3467f3; /* Change color on hover */
-}
+  .nav-link {
+    color: #160202;
+    /* Change link color */
+    font-size: 1rem;
+    /* Adjust font size for better mobile readability */
+  }
 
-.nav-social-link {
-   display: flex; /* Use flexbox for social links */
-   gap: 15px; /* Space between social links */
-}
+  .nav-link:hover {
+    color: #3467f3;
+    /* Change color on hover */
+  }
 
-/* Responsive Styles */
-@media (max-width: 425px) {
-   .navbar {
-       flex-direction: row; /* Keep items in a row on mobile */
-       
-   }
+  .nav-social-link {
+    display: flex;
+    /* Use flexbox for social links */
+    gap: 15px;
+    /* Space between social links */
+  }
 
-   .navbar-nav {
-       justify-content: center; /* Center nav items */
-       
-   }
+  /* Responsive Styles */
+  @media (max-width: 425px) {
+    .navbar {
+      flex-direction: row;
+      /* Keep items in a row on mobile */
 
-   .nav-link {
-       margin: 0 5px; /* Adjust margin for smaller screens */
-       font-size: 0.9rem; /* Smaller link font size */
-   }
+    }
 
-   .navbar-brand {
-       font-size: 1.2rem; /* Smaller brand font size */
-   }
-}
+    .navbar-nav {
+      justify-content: center;
+      /* Center nav items */
 
-/* First Section */
-.first-section {
-   font-size: 2rem; 
-}
+    }
 
-/* Responsive Styles */
-@media (max-width: 425px) {
-   .first-section {
-       font-size: 1.5rem; 
-   }
-}
+    .nav-link {
+      margin: 0 5px;
+      /* Adjust margin for smaller screens */
+      font-size: 0.9rem;
+      /* Smaller link font size */
+    }
 
-@keyframes flicker {
-   0% { opacity: 1; }
-   50% { opacity: 0.5; }
-   100% { opacity: 1; }
-}
+    .navbar-brand {
+      font-size: 1.2rem;
+      /* Smaller brand font size */
+    }
+  }
 
-.flicker {
-   animation: flicker 1s infinite; /* Adjust the duration as needed */
-}
+  /* First Section */
+  .first-section {
+    font-size: 2rem;
+  }
 
-@keyframes crumble {
-   0% { transform: translateY(0); opacity: 1; }
-   25% { transform: translateY(-5px) rotate(-1deg); opacity: 0.9; }
-   50% { transform: translateY(5px) rotate(1deg); opacity: 0.8; }
-   75% { transform: translateY(-3px) rotate(-0.5deg); opacity: 0.9; }
-   100% { transform: translateY(0); opacity: 1; }
-}
+  /* Responsive Styles */
+  @media (max-width: 425px) {
+    .first-section {
+      font-size: 1.5rem;
+    }
+  }
 
-.crumble {
-   animation: crumble 4s infinite; /* Adjust the duration as needed */
-}
+  @keyframes flicker {
+    0% {
+      opacity: 1;
+    }
 
-/* Responsive Image Styles */
+    50% {
+      opacity: 0.5;
+    }
 
-/* Base styles for responsive images */
-.responsive-image {
+    100% {
+      opacity: 1;
+    }
+  }
+
+  .flicker {
+    animation: flicker 1s infinite;
+    /* Adjust the duration as needed */
+  }
+
+  @keyframes crumble {
+    0% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+
+    25% {
+      transform: translateY(-5px) rotate(-1deg);
+      opacity: 0.9;
+    }
+
+    50% {
+      transform: translateY(5px) rotate(1deg);
+      opacity: 0.8;
+    }
+
+    75% {
+      transform: translateY(-3px) rotate(-0.5deg);
+      opacity: 0.9;
+    }
+
+    100% {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  .crumble {
+    animation: crumble 4s infinite;
+    /* Adjust the duration as needed */
+  }
+
+  /* Responsive Image Styles */
+
+  /* Base styles for responsive images */
+  .responsive-image {
     width: 100%;
     height: auto;
     object-fit: cover;
   }
-  
+
   /* Guitar Pick Image Styles */
   .guitar-pick {
     max-width: 350px;
     clip-path: polygon(50% 0%, 100% 80%, 80% 100%, 20% 100%, 0% 80%);
   }
-  
+
   /* About Image Styles */
   .about-img {
     max-width: 350px;
-    box-shadow: 
+    box-shadow:
       rgba(240, 46, 170, 0.4) -5px 5px,
       rgba(240, 46, 170, 0.3) -10px 10px,
       rgba(240, 46, 170, 0.2) -15px 15px,
       rgba(240, 46, 170, 0.1) -20px 20px,
       rgba(240, 46, 170, 0.05) -25px 25px;
   }
-  
- /* Create a responsive typography system using rem */
 
-:root {
+  /* Create a responsive typography system using rem */
+
+  :root {
     font-size: 16px;
   }
-  
+
   .about-section p {
     font-size: 1rem;
     line-height: 1.5;
   }
-  
+
   /* Media queries for responsive design */
   @media (max-width: 320px) {
     :root {
       font-size: 14px;
     }
   }
-  
+
   @media (max-width: 375px) {
     :root {
       font-size: 15px;
     }
   }
-  
+
   @media (max-width: 425px) {
     :root {
       font-size: 16px;
@@ -573,89 +738,92 @@
 
 
 
-.text-start {
-  font-size: 16px;
-  line-height: 1.5;
-  margin-bottom: 20px;
-}
-
-@media (max-width: 425px) {
   .text-start {
-    font-size: 14px;
-    line-height: 1.3;
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
   }
-}
 
-@media (max-width: 375px) {
-  .text-start {
-    font-size: 13px;
-    line-height: 1.2;
+  @media (max-width: 425px) {
+    .text-start {
+      font-size: 14px;
+      line-height: 1.3;
+    }
   }
-}
 
-@media (max-width: 320px) {
-  .text-start {
-    font-size: 12px;
-    line-height: 1.1;
+  @media (max-width: 375px) {
+    .text-start {
+      font-size: 13px;
+      line-height: 1.2;
+    }
   }
-}
+
+  @media (max-width: 320px) {
+    .text-start {
+      font-size: 12px;
+      line-height: 1.1;
+    }
+  }
 
 
 
 
 
-/* Hover Effects */
-.ho {
+  /* Hover Effects */
+  .ho {
     box-shadow: blue 0px 0px 0px 2px inset, rgb(255, 255, 255) 10px -10px 0px -3px, rgb(31, 193, 27) 10px -10px, rgb(255, 255, 255) 20px -20px 0px -3px, rgb(255, 217, 19) 20px -20px, rgb(255, 255, 255) 30px -30px 0px -3px, rgb(255, 156, 85) 30px -30px, rgb(255, 255, 255) 40px -40px 0px -3px, rgb(255, 85, 85) 40px -40px;
-}
+  }
 
-/* Body Styles */
-body {
+  /* Body Styles */
+  body {
     font-family: 'Roboto', sans-serif;
     background-color: #f5f5f5;
     margin: 0;
     padding: 0;
-}
+  }
 
-/* Container Styles */
-.container {
+  /* Container Styles */
+  .container {
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(57, 20, 138, 0.1);
     padding: 20px;
     display: flex;
-    flex-direction: column; /* Stack items vertically for better mobile layout */
-    align-items: center; /* Center items */
+    flex-direction: column;
+    /* Stack items vertically for better mobile layout */
+    align-items: center;
+    /* Center items */
     max-width: 800px;
-    margin: auto; /* Center the container */
-}
+    margin: auto;
+    /* Center the container */
+  }
 
-/* Text Section Styles */
-.text-section {
+  /* Text Section Styles */
+  .text-section {
     flex: 1;
     padding-right: 20px;
-}
+  }
 
-.text-section h1 {
+  .text-section h1 {
     font-size: 2.5em;
     margin: 0;
     color: #333;
-}
+  }
 
-.text-section h1 span {
+  .text-section h1 span {
     display: block;
-}
+  }
 
-.text-section p {
+  .text-section p {
     color: #666;
     margin: 10px 0;
-}
+  }
 
-.text-section p strong {
+  .text-section p strong {
     color: #333;
-}
+  }
 
-.text-section .contact-btn {
+  .text-section .contact-btn {
     display: inline-block;
     margin-top: 20px;
     padding: 10px 20px;
@@ -664,132 +832,159 @@ body {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-}
+  }
 
-/* Icons Styles */
-.icons {
+  /* Icons Styles */
+  .icons {
     display: flex;
     flex-direction: column;
     margin-right: 20px;
-}
+  }
 
-.icons a {
+  .icons a {
     color: #6c63ff;
     font-size: 1.5em;
     margin-bottom: 10px;
-}
+  }
 
-/* About Section Styles */
-.about {
+  /* About Section Styles */
+  .about {
     text-align: center;
-}
+  }
 
-.about h1 {
+  .about h1 {
     font-size: 2.5em;
-    color: #121010; /* Bootstrap danger color */
-}
+    color: #121010;
+    /* Bootstrap danger color */
+  }
 
-/* Service Section Styles */
-.service {
+  /* Service Section Styles */
+  .service {
     text-align: center;
-}
+  }
 
-.service h1 {
+  .service h1 {
     font-size: 2.5em;
-    color: #dc3545; /* Bootstrap danger color */
-}
+    color: #dc3545;
+    /* Bootstrap danger color */
+  }
 
-/* Contact Section Styles */
-.contact {
+  /* Contact Section Styles */
+  .contact {
     text-align: center;
-}
+  }
 
-.contact h1 {
+  .contact h1 {
     font-size: 2.5em;
-    color: #dc3545; /* Bootstrap danger color */
-}
+    color: #dc3545;
+    /* Bootstrap danger color */
+  }
 
-/* Video Section Style */
-#video-section {
-    padding: 40px 0; /* Add padding to the section */
-}
+  /* Video Section Style */
+  #video-section {
+    padding: 40px 0;
+    /* Add padding to the section */
+  }
 
-.video-item {
-    border: 1px solid #ddd; /* Light border around the video item */
-    border-radius: 10px; /* Rounded corners */
-    overflow: hidden; /* Ensures content doesn't overflow */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
-    transition: transform 0.2s; /* Smooth transition for hover effect */
-}
+  .video-item {
+    border: 1px solid #ddd;
+    /* Light border around the video item */
+    border-radius: 10px;
+    /* Rounded corners */
+    overflow: hidden;
+    /* Ensures content doesn't overflow */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow for depth */
+    transition: transform 0.2s;
+    /* Smooth transition for hover effect */
+  }
 
-.video-item:hover {
-    transform: scale(1.02); /* Slightly enlarge the video item on hover */
-}
+  .video-item:hover {
+    transform: scale(1.02);
+    /* Slightly enlarge the video item on hover */
+  }
 
-.video-thumbnail {
-    width: 100%; /* Ensure the video takes the full width of the item */
-    height: auto; /* Maintain aspect ratio */
-}
+  .video-thumbnail {
+    width: 100%;
+    /* Ensure the video takes the full width of the item */
+    height: auto;
+    /* Maintain aspect ratio */
+  }
 
-.video-details {
-    padding: 15px; /* Padding inside the video details */
-}
+  .video-details {
+    padding: 15px;
+    /* Padding inside the video details */
+  }
 
-.video-title {
-    font-size: 1.25rem; /* Font size for the video title */
-    margin-bottom: 10px; /* Space below the title */
-}
+  .video-title {
+    font-size: 1.25rem;
+    /* Font size for the video title */
+    margin-bottom: 10px;
+    /* Space below the title */
+  }
 
-.video-description {
-    font-size: 1rem; /* Font size for the video description */
-    margin-bottom: 15px; /* Space below the description */
-}
+  .video-description {
+    font-size: 1rem;
+    /* Font size for the video description */
+    margin-bottom: 15px;
+    /* Space below the description */
+  }
 
-.btn {
-    width: 100%; /* Make buttons full width */
-    padding: 10px; /* Padding for buttons */
-    font-size: 1rem; /* Font size for buttons */
-}
+  .btn {
+    width: 100%;
+    /* Make buttons full width */
+    padding: 10px;
+    /* Padding for buttons */
+    font-size: 1rem;
+    /* Font size for buttons */
+  }
 
-/* Responsive adjustments */
-@media (max-width: 768px) {
+  /* Responsive adjustments */
+  @media (max-width: 768px) {
     .video-item {
-        margin-bottom: 20px; /* Space between video items on smaller screens */
+      margin-bottom: 20px;
+      /* Space between video items on smaller screens */
     }
 
     .text-section h1 {
-        font-size: 1.8em; /* Smaller font size for mobile */
+      font-size: 1.8em;
+      /* Smaller font size for mobile */
     }
 
     .text-section p {
-        font-size: 0.9em; /* Smaller paragraph font size */
+      font-size: 0.9em;
+      /* Smaller paragraph font size */
     }
 
     .contact-btn {
-        padding: 8px 16px; /* Adjust button padding for mobile */
-        font-size: 0.9em; /* Smaller button font size */
+      padding: 8px 16px;
+      /* Adjust button padding for mobile */
+      font-size: 0.9em;
+      /* Smaller button font size */
     }
-}
+  }
 
-/* Social Style */
-.card {
+  /* Social Style */
+  .card {
     position: relative;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     background: #e7e7e7;
-    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
     transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
     overflow: hidden;
     width: 100px;
     margin-top: -90px;
-    padding-bottom: 50px; /* Add padding to the bottom of the card */
+    padding-bottom: 50px;
+    /* Add padding to the bottom of the card */
   }
-  
+
   .toggle-button {
     position: absolute;
-    bottom: 0; /* Position the button at the bottom of the card */
+    bottom: 0;
+    /* Position the button at the bottom of the card */
     background-color: #4d60b6;
     color: rgb(18, 19, 18);
     border: none;
@@ -798,83 +993,93 @@ body {
     cursor: pointer;
     font-family: 'Fira Mono', monospace;
     font-size: 14px;
-    width: 100%; /* Make the button full width */
+    width: 100%;
+    /* Make the button full width */
   }
-  
+
   /* Responsive styles */
   /* iPhone 12 and later */
-@media (max-width: 390px) {
+  @media (max-width: 390px) {
     .card {
       width: 80px;
     }
+
     .toggle-button {
       padding: 8px;
       font-size: 12px;
     }
   }
-  
+
   /* iPhone 11 and earlier */
   @media (max-width: 375px) {
     .card {
       width: 60px;
     }
+
     .toggle-button {
       padding: 6px;
       font-size: 10px;
     }
   }
-  
+
   /* iPhone 8 and earlier */
   @media (max-width: 320px) {
     .card {
       width: 40px;
     }
+
     .toggle-button {
       padding: 4px;
       font-size: 8px;
     }
   }
-  
+
   /* Android screens */
   @media (max-width: 412px) {
     .card {
       width: 80px;
     }
+
     .toggle-button {
       padding: 8px;
       font-size: 12px;
     }
   }
-  
+
   @media (max-width: 360px) {
     .card {
       width: 60px;
     }
+
     .toggle-button {
       padding: 6px;
       font-size: 10px;
     }
   }
-  
+
   @media (max-width: 280px) {
     .card {
       width: 40px;
     }
+
     .toggle-button {
       padding: 4px;
       font-size: 8px;
     }
   }
-  
-/* Flag */
-.nepal-flag {
-    width: 50px; /* Adjust the size as needed */
-    height: auto; /* Maintain aspect ratio */
-    margin-right: 20px; /* Space between brand name and flag */
-}
 
-/* Contact */
-.container {
+  /* Flag */
+  .nepal-flag {
+    width: 50px;
+    /* Adjust the size as needed */
+    height: auto;
+    /* Maintain aspect ratio */
+    margin-right: 20px;
+    /* Space between brand name and flag */
+  }
+
+  /* Contact */
+  .container {
     display: flex;
     background-color: #fff;
     padding: 20px;
@@ -882,963 +1087,1205 @@ body {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     max-width: 800px;
     width: 100%;
-}
+  }
 
-.contact-info {
+  .contact-info {
     flex: 1;
     padding-right: 20px;
-}
+  }
 
-.contact-info div {
+  .contact-info div {
     margin-bottom: 20px;
-}
+  }
 
-.contact-info i {
+  .contact-info i {
     font-size: 24px;
     color: #6c63ff;
     margin-right: 10px;
-}
+  }
 
-.contact-info h3 {
+  .contact-info h3 {
     margin: 0;
     font-size: 18px;
     color: #333;
-}
+  }
 
-.contact-info p {
+  .contact-info p {
     margin: 5px 0 0;
     color: #666;
-}
+  }
 
-.contact-form {
+  .contact-form {
     flex: 1;
-}
+  }
 
-.contact-form input,
-.contact-form textarea {
+  .contact-form input,
+  .contact-form textarea {
     width: 100%;
     padding: 10px;
     margin-bottom: 20px;
     border: 1px solid #ddd;
     border-radius: 5px;
     background-color: #f3f3ff;
-}
-.contact-form button {
-   background-color: #6c63ff;
-   color: #fff;
-   padding: 10px 20px;
-   border: none;
-   border-radius: 5px;
-   cursor: pointer;
-   font-size: 16px;
-}
-
-.contact-form button i {
-   margin-left: 5px;
-}
-
-@media (max-width: 768px) {
-   .container {
-       flex-direction: column; /* Stack items vertically on mobile */
-   }
-
-   .contact-info {
-       padding-right: 0; /* Remove right padding */
-       margin-bottom: 20px; /* Space below contact info */
-   }
-
-   .contact-info h3 {
-       font-size: 16px; /* Smaller font size for mobile */
-   }
-
-   .contact-form button {
-       padding: 8px 16px; /* Adjust button padding for mobile */
-       font-size: 14px; /* Smaller button font size */
-   }
-}
-
-/* Skills */
-.container {
-   text-align: center; /* Center align the title and subtitle */
-}
-
-.skills {
-   margin-top: 0.7rem;
-   text-align: left; /* Keep skills aligned to the left */
-}
-
-.skill-item {
-   display: flex;
-   flex-direction: column;
-   background-color: #fff;
-   border-radius: 8px;
-   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-   margin-bottom: 1rem;
-   cursor: pointer;
-}
-
-.sub-skills {
-   display: none;
-   padding: 0 1rem 1rem 1rem;
-}
-
-.sub-skills ul {
-   list-style-type: none;
-   padding: 0;
-   margin: 0;
-}
-
-.sub-skills li {
-   padding: 0.5rem 0;
-   font-size: 1rem;
-   color: #555;
-}
-
-/* Education */
-.timeline-container {
-   background-color: #fff;
-   border-radius: 8px;
-   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-   padding: 20px;
-   width: 90%;
-   max-width: 600px;
-   position: relative;
-   margin: 0 auto;
-}
-
-.timeline-item {
-   display: flex;
-   align-items: center;
-   margin-bottom: 20px;
-}
-
-.timeline-item:last-child {
-   margin-bottom: 0;
-}
-
-.timeline-content {
-   flex: 1;
-}
-
-.timeline-content h3 {
-   margin: 0;
-   font-size: 18px;
-   font-weight: 700;
-   color: #333;
-}
-
-.timeline-content p {
-   margin: 5px 0;
-   font-size: 14px;
-   color: #666;
-}
-
-.timeline-content .date {
-   display: flex;
-   align-items: center;
-   font-size: 14px;
-   color: #999;
-}
-
-.timeline-content .date i {
-   margin-right: 5px;
-}
-
-.timeline-content a {
-   display: inline-block;
-   margin-top: 10px;
-   font-size: 14px;
-   color: #6c63ff;
-   text-decoration: none;
-}
-
-.timeline-content a i {
-   margin-left: 5px;
-}
-
-.timeline-line {
-   width: 2px;
-   background-color: #6c63ff;
-   height: calc(100% - 20px);
-   position: absolute;
-   left: 50%;
-   top: 10px;
-   transform: translateX(-50%);
-}
-
-.timeline-dot {
-   width: 10px;
-   height: 10px;
-   background-color: #6c63ff;
-   border-radius: 50%;
-   position: absolute;
-   left: 50%;
-   transform: translateX(-50%);
-}
-
-.timeline-dot:nth-child(1) {
-   top: 0;
-}
-
-.timeline-dot:nth-child(2) {
-   top: 50%;
-   transform: translate(-50%, -50%);
-}
-
-.timeline-dot:nth-child(3) {
-   bottom: 0;
-}
-
-@media (max-width: 600px) {
-   .timeline-item {
-       flex-direction: column;
-       align-items: flex-start;
-   }
-
-   .timeline-line {
-       display: none; /* Hide line on mobile */
-   }
-
-   .timeline-dot {
-       display: none; /* Hide dots on mobile */
-   }
-}
-
-/* Popup Styles */
-.popup {
-   display: none;
-   position: fixed;
-   left: 50%;
-   top: 50%;
-   transform: translate(-50%, -50%);
-   background-color: #fff;
-   padding: 20px;
-   box-shadow: 0 0 10px rgba(0, 0, 0,     0.1);
-   border-radius: 8px;
-   z-index: 1000;
-}
-
-.popup h3 {
-   margin-top: 0;
-}
-
-.popup-close {
-   display: block;
-   text-align: right;
-   margin-top: 10px;
-}
-
-.popup-close a {
-   color: #6c63ff;
-   text-decoration: none;
-}
-
-/* Overlay Styles */
-.overlay {
-   display: none;
-   position: fixed;
-   top: 0;
-   left: 0;
-   width: 100%;
-   height: 100%;
-   background: rgba(0, 0, 0, 0.5);
-   z-index: 999;
-}
-
-/* Social Links Styles */
-.nav-social-links {
-   display: flex;
-   gap: 15px; /* Adjust the space between links */
-}
-
-.nav-social-link {
-   text-decoration: none; /* Optional: Remove underline */
-   color: inherit; /* Optional: Inherit color */
-}
-
-.nav-social-link i {
-   font-size: 20px; /* Adjust icon size */
-}
-
-/* Additional Responsive Adjustments */
-@media (max-width: 480px) {
-   .navbar-brand {
-       font-size: 1rem; /* Smaller brand font size */
-   }
-
-   .nav-link {
-       font-size: 0.9rem; /* Smaller link font size */
-   }
-
-   .text-section h1 {
-       font-size: 1.5em; /* Smaller title font size */
-   }
-
-   .text-section p {
-       font-size: 0.8em; /* Smaller paragraph font size */
-   }
-
-   .contact-info h3 {
-       font-size: 16px; /* Smaller font size for contact info */
-   }
-
-   .contact-form button {
-       padding: 8px 16px; /* Adjust button padding for mobile */
-       font-size: 14px; /* Smaller button font size */
-   }
-
-   .video-title {
-       font-size: 1.1rem; /* Smaller font size for video titles */
-   }
-
-   .video-description {
-       font-size: 0.9rem; /* Smaller font size for video descriptions */
-   }
-
-   .skill-item {
-       padding: 10px; /* Add padding for better touch targets */
-   }
-
-   .skill-item h3 {
-       font-size: 1.2rem; /* Smaller font size for skill titles */
-   }
-
-   .timeline-content h3 {
-       font-size: 16px; /* Smaller font size for timeline titles */
-   }
-
-   .timeline-content p {
-       font-size: 12px; /* Smaller font size for timeline descriptions */
-   }
-
-   .btn {
-       padding: 8px; /* Adjust button padding for mobile */
-       font-size: 14px; /* Smaller button font size */
-   }
-}
-
-/* Ensure images are responsive */
-img {
-   max-width: 100%; /* Make images responsive */
-   height: auto; /* Maintain aspect ratio */
-}
-
-/* Flexbox adjustments for smaller screens */
-@media (max-width: 768px) {
-   .container {
-       flex-direction: column; /* Stack items vertically */
-       padding: 15px; /* Adjust padding for smaller screens */
-   }
-
-   .icons {
-       flex-direction: row; /* Change to row layout for icons */
-       justify-content: center; /* Center icons */
-   }
-
-   .social-link {
-       width: auto; /* Allow social links to adjust width */
-       margin: 5px; /* Add margin for spacing */
-   }
-}
-
-/* Responsive adjustments for Home and About sections */
-@media (max-width: 425px) {
-   #Home p,
-   #about p {
-       font-size: 0.9rem; /* Slightly smaller font size for mobile */
-   }
-
-   .guitar-pick,
-   .about-img {
-       width: 100%; /* Ensure images are full width on mobile */
-       height: auto; /* Maintain aspect ratio */
-   }
-
-   /* Adjust heading sizes for small screens */
-   #Home h1,
-   #about h1 {
-       font-size: 1.5rem; /* Adjust heading size for small screens */
-   }
-
-   /* Adjust button sizes for better usability */
-   .toggle-button {
-       font-size: 0.9rem; /* Adjust button font size for small screens */
-       padding: 10px; /* Adjust button padding */
-   }
-
-   .btn {
-       font-size: 0.9rem; /* Adjust button font size for small screens */
-       padding: 10px 15px; /* Adjust button padding */
-   }
-}
-
-@media (max-width: 320px) {
-   #Home p,
-   #about p {
-       font-size: 0.8rem; /* Smaller font size for very small screens */
-   }
-
-   #Home h1,
-   #about h1 {
-       font-size:         1.2rem; /* Further adjust heading size for very small screens */
-      }
-  
-      .toggle-button {
-          font-size: 0.8rem; /* Further adjust button font size for very small screens */
-          padding: 8px; /* Further adjust button padding */
-      }
-  
-      .btn {
-          font-size: 0.8rem; /* Further adjust button font size for very small screens */
-          padding: 8px 12px; /* Further adjust button padding */
-      }
-  
-      .video-title {
-          font-size: 1rem; /* Smaller font size for video titles */
-      }
-  
-      .video-description {
-          font-size: 0.8rem; /* Smaller font size for video descriptions */
-      }
-  
-      .contact-info h3 {
-          font-size: 14px; /* Smaller font size for contact info */
-      }
-  
-      .contact-form input,
-      .contact-form textarea {
-          padding: 8px; /* Adjust padding for input fields */
-      }
-  
-      .contact-form button {
-          padding: 8px 16px; /* Adjust button padding for mobile */
-          font-size: 14px; /* Smaller button font size */
-      }
   }
 
+  .contact-form button {
+    background-color: #6c63ff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
 
-
-
-
-.about-text {
-margin-left: 20px;
-margin-top: 30px;
-}
-
-@media (max-width: 425px) {
-.about-text {
-    margin-left: 10px;
-}
-}
-
-@media (max-width: 375px) {
-.about-text {
+  .contact-form button i {
     margin-left: 5px;
-}
-}
+  }
 
-@media (max-width: 320px) {
-.about-text {
-    margin-left: 0px;
-}
-}
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      /* Stack items vertically on mobile */
+    }
 
+    .contact-info {
+      padding-right: 0;
+      /* Remove right padding */
+      margin-bottom: 20px;
+      /* Space below contact info */
+    }
 
+    .contact-info h3 {
+      font-size: 16px;
+      /* Smaller font size for mobile */
+    }
 
+    .contact-form button {
+      padding: 8px 16px;
+      /* Adjust button padding for mobile */
+      font-size: 14px;
+      /* Smaller button font size */
+    }
+  }
 
+  /* Skills */
+  .container {
+    text-align: center;
+    /* Center align the title and subtitle */
+  }
 
+  .skills {
+    margin-top: 0.7rem;
+    text-align: left;
+    /* Keep skills aligned to the left */
+  }
 
+  .skill-item {
+    display: flex;
+    flex-direction: column;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    cursor: pointer;
+  }
 
+  .sub-skills {
+    display: none;
+    padding: 0 1rem 1rem 1rem;
+  }
 
+  .sub-skills ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+  }
 
+  .sub-skills li {
+    padding: 0.5rem 0;
+    font-size: 1rem;
+    color: #555;
+  }
 
-/* From Uiverse.io by joe-watson-sbf */ 
-.flip-card {
-  background-color: transparent;
-  width: 270px;
-  height: 270px;
-  perspective: 1000px;
-  font-family: sans-serif;
-}
-
-.title {
-  font-size: 1.5em;
-  font-weight: 900;
-  text-align: center;
-  margin: 0;
-}
-
-.flip-card-inner {
-  position: relative;
-  width: 100%;
-  height: 100%;
-  text-align: center;
-  transition: transform 0.8s;
-  transform-style: preserve-3d;
-}
-
-.flip-card:hover .flip-card-inner {
-  transform: rotateY(180deg);
-}
-
-.flip-card-front, .flip-card-back {
-  box-shadow: 0 8px 14px 0 rgba(0,0,0,0.2);
-  position: absolute;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  height: 100%;
-  -webkit-backface-visibility: hidden;
-  backface-visibility: hidden;
-  border: 1px solid coral;
-  border-radius: 1rem;
-}
-
-.flip-card-front {
-  background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
-     rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
-  color: coral;
-}
-
-.flip-card-back {
-  background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
-     bisque 40%, rgb(255, 185, 160) 78%);
-  color: white;
-  transform: rotateY(180deg);
-}
-
-
-
-
-
-
-
-
-
-
-.card {
-  position: relative;
-  width: 70px;
-  height: 70px;
-  background: lightgrey;
-  border-radius: 30px;
-  overflow: hidden;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  transition: all 1s ease-in-out;
-  border: 2px solid rgb(255, 255, 255);
-  margin-right: 80px;
-  
-}
-
-.background {
-  position: absolute;
-  inset: 0;
-  background-color: #4158D0;
-  background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
-}
-
-.logo {
-  position: absolute;
-  right: 50%;
-  bottom: 50%;
-  transform: translate(50%, 50%);
-  transition: all 0.6s ease-in-out;
-  font-size: 1.3em;
-  font-weight: 600;
-  color: #ffffff;
-  letter-spacing: 3px;
-}
-
-.logo .logo-svg {
-  fill: white;
-  width: 30px;
-  height: 30px;
-}
-
-.icon {
-  display: inline-block;
-  width: 20px;
-  height: 20px;
-}
-
-.icon .svg {
-  fill: rgba(255, 255, 255, 0.797);
-  width: 100%;
-  transition: all 0.5s ease-in-out;
-}
-
-.box {
-  position: absolute;
-  padding: 10px;
-  text-align: right;
-  background: rgba(255, 255, 255, 0.389);
-  border-top: 2px solid rgb(255, 255, 255);
-  border-right: 1px solid white;
-  border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
-  box-shadow: rgba(100, 100, 111, 0.364) -7px 7px 29px 0px;
-  transform-origin: bottom left;
-  transition: all 1s ease-in-out;
-}
-
-.box::before {
-  content: "";
-  position: absolute;
-  inset: 0;
-  border-radius: inherit;
-  opacity: 0;
-  transition: all 0.5s ease-in-out;
-}
-
-.box:hover .svg {
-  fill: white;
-}
-
-.box1 {
-  width: 70%;
-  height: 70%;
-  bottom: -70%;
-  left: -70%;
-}
-
-.box1::before {
-  background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #ff53d4 60%, #62c2fe 90%);
-}
-
-.box1:hover::before {
-  opacity: 1;
-}
-
-.box1:hover .icon .svg {
-  filter: drop-shadow(0 0 5px white);
-}
-
-.box2 {
-  width: 50%;
-  height: 50%;
-  bottom: -50%;
-  left: -50%;
-  transition-delay: 0.2s;
-}
-
-.box2::before {
-  background: radial-gradient(circle at 30% 107%, #91e9ff 0%, #00ACEE 90%);
-}
-
-.box2:hover::before {
-  opacity: 1;
-}
-
-.box2:hover .icon .svg {
-  filter: drop-shadow(0 0 5px white);
-}
-
-.box3 {
-  width: 30%;
-  height: 30%;
-  bottom: -30%;
-  left: -30%;
-  transition-delay: 0.4s;
-}
-
-.box3::before {
-  background: radial-gradient(circle at 30% 107%, #969fff 0%, #b349ff 90%);
-}
-
-.box3:hover::before {
-  opacity: 1;
-}
-
-.box3:hover .icon .svg {
-  filter: drop-shadow(0 0 5px white);
-}
-
-.box4 {
-  width: 10%;
-  height: 10%;
-  bottom: -10%;
-  left: -10%;
-  transition-delay: 0.6s;
-}
-
-.card:hover {
-  transform: scale(1.1);
-}
-
-.card:hover .box {
-  bottom: -1px;
-  left: -1px;
-}
-
-.card:hover .logo {
-  transform: translate(70px, -52px);
-  letter-spacing: 0px;
-}
-
-/* Responsive styles */
-
-/* iPhone 5/SE */
-@media (max-width: 320px) {
-  .card {
-    width: 100px;
-    height: 100px;
+  /* Education */
+  .timeline-container {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    width: 90%;
+    max-width: 600px;
+    position: relative;
     margin: 0 auto;
   }
-  .logo {
-    font-size: 1em;
-  }
-  .icon {
-    width: 15px;
-    height: 15px;
-  }
-}
 
-/* iPhone 6/7/8 */
-@media (max-width: 375px) {
-  .card {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
+  .timeline-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
   }
-  .logo {
-    font-size: 1.2em;
-  }
-  .icon {
-    width: 18px;
-    height: 18px;
-  }
-}
 
-/* iPhone 6/7/8 Plus */
-@media (max-width: 414px) {
-  .card {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
+  .timeline-item:last-child {
+    margin-bottom: 0;
   }
-  .logo {
+
+  .timeline-content {
+    flex: 1;
+  }
+
+  .timeline-content h3 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 700;
+    color: #333;
+  }
+
+  .timeline-content p {
+    margin: 5px 0;
+    font-size: 14px;
+    color: #666;
+  }
+
+  .timeline-content .date {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #999;
+  }
+
+  .timeline-content .date i {
+    margin-right: 5px;
+  }
+
+  .timeline-content a {
+    display: inline-block;
+    margin-top: 10px;
+    font-size: 14px;
+    color: #6c63ff;
+    text-decoration: none;
+  }
+
+  .timeline-content a i {
+    margin-left: 5px;
+  }
+
+  .timeline-line {
+    width: 2px;
+    background-color: #6c63ff;
+    height: calc(100% - 20px);
+    position: absolute;
+    left: 50%;
+    top: 10px;
+    transform: translateX(-50%);
+  }
+
+  .timeline-dot {
+    width: 10px;
+    height: 10px;
+    background-color: #6c63ff;
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+
+  .timeline-dot:nth-child(1) {
+    top: 0;
+  }
+
+  .timeline-dot:nth-child(2) {
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  .timeline-dot:nth-child(3) {
+    bottom: 0;
+  }
+
+  @media (max-width: 600px) {
+    .timeline-item {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+
+    .timeline-line {
+      display: none;
+      /* Hide line on mobile */
+    }
+
+    .timeline-dot {
+      display: none;
+      /* Hide dots on mobile */
+    }
+  }
+
+  /* Popup Styles */
+  .popup {
+    display: none;
+    position: fixed;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    z-index: 1000;
+  }
+
+  .popup h3 {
+    margin-top: 0;
+  }
+
+  .popup-close {
+    display: block;
+    text-align: right;
+    margin-top: 10px;
+  }
+
+  .popup-close a {
+    color: #6c63ff;
+    text-decoration: none;
+  }
+
+  /* Overlay Styles */
+  .overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 999;
+  }
+
+  /* Social Links Styles */
+  .nav-social-links {
+    display: flex;
+    gap: 15px;
+    /* Adjust the space between links */
+  }
+
+  .nav-social-link {
+    text-decoration: none;
+    /* Optional: Remove underline */
+    color: inherit;
+    /* Optional: Inherit color */
+  }
+
+  .nav-social-link i {
+    font-size: 20px;
+    /* Adjust icon size */
+  }
+
+  /* Additional Responsive Adjustments */
+  @media (max-width: 480px) {
+    .navbar-brand {
+      font-size: 1rem;
+      /* Smaller brand font size */
+    }
+
+    .nav-link {
+      font-size: 0.9rem;
+      /* Smaller link font size */
+    }
+
+    .text-section h1 {
+      font-size: 1.5em;
+      /* Smaller title font size */
+    }
+
+    .text-section p {
+      font-size: 0.8em;
+      /* Smaller paragraph font size */
+    }
+
+    .contact-info h3 {
+      font-size: 16px;
+      /* Smaller font size for contact info */
+    }
+
+    .contact-form button {
+      padding: 8px 16px;
+      /* Adjust button padding for mobile */
+      font-size: 14px;
+      /* Smaller button font size */
+    }
+
+    .video-title {
+      font-size: 1.1rem;
+      /* Smaller font size for video titles */
+    }
+
+    .video-description {
+      font-size: 0.9rem;
+      /* Smaller font size for video descriptions */
+    }
+
+    .skill-item {
+      padding: 10px;
+      /* Add padding for better touch targets */
+    }
+
+    .skill-item h3 {
+      font-size: 1.2rem;
+      /* Smaller font size for skill titles */
+    }
+
+    .timeline-content h3 {
+      font-size: 16px;
+      /* Smaller font size for timeline titles */
+    }
+
+    .timeline-content p {
+      font-size: 12px;
+      /* Smaller font size for timeline descriptions */
+    }
+
+    .btn {
+      padding: 8px;
+      /* Adjust button padding for mobile */
+      font-size: 14px;
+      /* Smaller button font size */
+    }
+  }
+
+  /* Ensure images are responsive */
+  img {
+    max-width: 100%;
+    /* Make images responsive */
+    height: auto;
+    /* Maintain aspect ratio */
+  }
+
+  /* Flexbox adjustments for smaller screens */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      /* Stack items vertically */
+      padding: 15px;
+      /* Adjust padding for smaller screens */
+    }
+
+    .icons {
+      flex-direction: row;
+      /* Change to row layout for icons */
+      justify-content: center;
+      /* Center icons */
+    }
+
+    .social-link {
+      width: auto;
+      /* Allow social links to adjust width */
+      margin: 5px;
+      /* Add margin for spacing */
+    }
+  }
+
+  /* Responsive adjustments for Home and About sections */
+  @media (max-width: 425px) {
+
+    #Home p,
+    #about p {
+      font-size: 0.9rem;
+      /* Slightly smaller font size for mobile */
+    }
+
+    .guitar-pick,
+    .about-img {
+      width: 100%;
+      /* Ensure images are full width on mobile */
+      height: auto;
+      /* Maintain aspect ratio */
+    }
+
+    /* Adjust heading sizes for small screens */
+    #Home h1,
+    #about h1 {
+      font-size: 1.5rem;
+      /* Adjust heading size for small screens */
+    }
+
+    /* Adjust button sizes for better usability */
+    .toggle-button {
+      font-size: 0.9rem;
+      /* Adjust button font size for small screens */
+      padding: 10px;
+      /* Adjust button padding */
+    }
+
+    .btn {
+      font-size: 0.9rem;
+      /* Adjust button font size for small screens */
+      padding: 10px 15px;
+      /* Adjust button padding */
+    }
+  }
+
+  @media (max-width: 320px) {
+
+    #Home p,
+    #about p {
+      font-size: 0.8rem;
+      /* Smaller font size for very small screens */
+    }
+
+    #Home h1,
+    #about h1 {
+      font-size: 1.2rem;
+      /* Further adjust heading size for very small screens */
+    }
+
+    .toggle-button {
+      font-size: 0.8rem;
+      /* Further adjust button font size for very small screens */
+      padding: 8px;
+      /* Further adjust button padding */
+    }
+
+    .btn {
+      font-size: 0.8rem;
+      /* Further adjust button font size for very small screens */
+      padding: 8px 12px;
+      /* Further adjust button padding */
+    }
+
+    .video-title {
+      font-size: 1rem;
+      /* Smaller font size for video titles */
+    }
+
+    .video-description {
+      font-size: 0.8rem;
+      /* Smaller font size for video descriptions */
+    }
+
+    .contact-info h3 {
+      font-size: 14px;
+      /* Smaller font size for contact info */
+    }
+
+    .contact-form input,
+    .contact-form textarea {
+      padding: 8px;
+      /* Adjust padding for input fields */
+    }
+
+    .contact-form button {
+      padding: 8px 16px;
+      /* Adjust button padding for mobile */
+      font-size: 14px;
+      /* Smaller button font size */
+    }
+  }
+
+
+
+
+
+  .about-text {
+    margin-left: 20px;
+    margin-top: 30px;
+  }
+
+  @media (max-width: 425px) {
+    .about-text {
+      margin-left: 10px;
+    }
+  }
+
+  @media (max-width: 375px) {
+    .about-text {
+      margin-left: 5px;
+    }
+  }
+
+  @media (max-width: 320px) {
+    .about-text {
+      margin-left: 0px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  /* From Uiverse.io by joe-watson-sbf */
+  .flip-card {
+    background-color: transparent;
+    width: 270px;
+    height: 270px;
+    perspective: 1000px;
+    font-family: sans-serif;
+  }
+
+  .title {
     font-size: 1.5em;
+    font-weight: 900;
+    text-align: center;
+    margin: 0;
   }
-  .icon {
-    width: 22px;
-    height: 22px;
-  }
-}
 
-/* iPhone X/XS */
-@media (max-width: 375px) and (orientation: portrait) {
-  .card {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
+  .flip-card-inner {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    transition: transform 0.8s;
+    transform-style: preserve-3d;
   }
-  .logo {
-    font-size: 1.2em;
-  }
-  .icon {
-    width: 18px;
-    height: 18px;
-  }
-}
 
-/* iPhone XS Max */
-@media (max-width: 414px) and (orientation: portrait) {
-  .card {
-    width: 150px;
-    height: 150px;
-    margin: 0 auto;
+  .flip-card:hover .flip-card-inner {
+    transform: rotateY(180deg);
   }
-  .logo {
-    font-size: 1.5em;
-  }
-  .icon {
-    width: 22px;
-    height: 22px;
-  }
-}
 
-/* Android devices */
-@media (max-width: 480px) {
-  .card {
-    width: 120px;
-    height: 120px;
-    margin: 0 auto;
+  .flip-card-front,
+  .flip-card-back {
+    box-shadow: 0 8px 14px 0 rgba(0, 0, 0, 0.2);
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    border: 1px solid coral;
+    border-radius: 1rem;
   }
-  .logo {
-    font-size: 1.2em;
-  }
-  .icon {
-    width: 18px;
-    height: 18px;
-  }
-}
 
-/* Larger screens */
-@media (min-width: 768px) {
+  .flip-card-front {
+    background: linear-gradient(120deg, bisque 60%, rgb(255, 231, 222) 88%,
+        rgb(255, 211, 195) 40%, rgba(255, 127, 80, 0.603) 48%);
+    color: coral;
+  }
+
+  .flip-card-back {
+    background: linear-gradient(120deg, rgb(255, 174, 145) 30%, coral 88%,
+        bisque 40%, rgb(255, 185, 160) 78%);
+    color: white;
+    transform: rotateY(180deg);
+  }
+
+
+
+
+
+
+
+
+
+
   .card {
-    width: 200px;
-    height: 200px;
-    margin: 0 auto;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    background: lightgrey;
+    border-radius: 30px;
+    overflow: hidden;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: all 1s ease-in-out;
+    border: 2px solid rgb(255, 255, 255);
+    margin-right: 80px;
+
   }
+
+  .background {
+    position: absolute;
+    inset: 0;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+  }
+
   .logo {
-    font-size: 2em;
+    position: absolute;
+    right: 50%;
+    bottom: 50%;
+    transform: translate(50%, 50%);
+    transition: all 0.6s ease-in-out;
+    font-size: 1.3em;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: 3px;
   }
-  .icon {
+
+  .logo .logo-svg {
+    fill: white;
     width: 30px;
     height: 30px;
   }
-}
-/* Desktop screens */
-/* Desktop screens */
-@media (min-width: 768px) {
-  .home-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+
+  .icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
   }
-  .home-section p {
-    margin-bottom: 20px;
+
+  .icon .svg {
+    fill: rgba(255, 255, 255, 0.797);
+    width: 100%;
+    transition: all 0.5s ease-in-out;
   }
-  .card {
-    margin-top: -70px;
-    width: 170px;
-    height: 110px;
-    margin-left: 110px;
-    margin-right: 20px;
-    color: #100505;
-  }
-}
-/* ends */
 
-
-
-
-
-
-
-.card {
-  transition: transform 0.5s ease-in-out;
-}
-
-.card.active {
-  transform: scale(1.1);
-}
-
-.card.active {
-  /* Add styles here to open the card */
-  transform: scale(1.1);
   .box {
+    position: absolute;
+    padding: 10px;
+    text-align: right;
+    background: rgba(255, 255, 255, 0.389);
+    border-top: 2px solid rgb(255, 255, 255);
+    border-right: 1px solid white;
+    border-radius: 10% 13% 42% 0%/10% 12% 75% 0%;
+    box-shadow: rgba(100, 100, 111, 0.364) -7px 7px 29px 0px;
+    transform-origin: bottom left;
+    transition: all 1s ease-in-out;
+  }
+
+  .box::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    opacity: 0;
+    transition: all 0.5s ease-in-out;
+  }
+
+  .box:hover .svg {
+    fill: white;
+  }
+
+  .box1 {
+    width: 70%;
+    height: 70%;
+    bottom: -70%;
+    left: -70%;
+  }
+
+  .box1::before {
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #ff53d4 60%, #62c2fe 90%);
+  }
+
+  .box1:hover::before {
+    opacity: 1;
+  }
+
+  .box1:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+  }
+
+  .box2 {
+    width: 50%;
+    height: 50%;
+    bottom: -50%;
+    left: -50%;
+    transition-delay: 0.2s;
+  }
+
+  .box2::before {
+    background: radial-gradient(circle at 30% 107%, #91e9ff 0%, #00ACEE 90%);
+  }
+
+  .box2:hover::before {
+    opacity: 1;
+  }
+
+  .box2:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+  }
+
+  .box3 {
+    width: 30%;
+    height: 30%;
+    bottom: -30%;
+    left: -30%;
+    transition-delay: 0.4s;
+  }
+
+  .box3::before {
+    background: radial-gradient(circle at 30% 107%, #969fff 0%, #b349ff 90%);
+  }
+
+  .box3:hover::before {
+    opacity: 1;
+  }
+
+  .box3:hover .icon .svg {
+    filter: drop-shadow(0 0 5px white);
+  }
+
+  .box4 {
+    width: 10%;
+    height: 10%;
+    bottom: -10%;
+    left: -10%;
+    transition-delay: 0.6s;
+  }
+
+  .card:hover {
+    transform: scale(1.1);
+  }
+
+  .card:hover .box {
     bottom: -1px;
     left: -1px;
   }
-  .logo {
+
+  .card:hover .logo {
     transform: translate(70px, -52px);
     letter-spacing: 0px;
   }
-}
+
+  /* Responsive styles */
+
+  /* iPhone 5/SE */
+  @media (max-width: 320px) {
+    .card {
+      width: 100px;
+      height: 100px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1em;
+    }
+
+    .icon {
+      width: 15px;
+      height: 15px;
+    }
+  }
+
+  /* iPhone 6/7/8 */
+  @media (max-width: 375px) {
+    .card {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1.2em;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  /* iPhone 6/7/8 Plus */
+  @media (max-width: 414px) {
+    .card {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1.5em;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  /* iPhone X/XS */
+  @media (max-width: 375px) and (orientation: portrait) {
+    .card {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1.2em;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  /* iPhone XS Max */
+  @media (max-width: 414px) and (orientation: portrait) {
+    .card {
+      width: 150px;
+      height: 150px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1.5em;
+    }
+
+    .icon {
+      width: 22px;
+      height: 22px;
+    }
+  }
+
+  /* Android devices */
+  @media (max-width: 480px) {
+    .card {
+      width: 120px;
+      height: 120px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 1.2em;
+    }
+
+    .icon {
+      width: 18px;
+      height: 18px;
+    }
+  }
+
+  /* Larger screens */
+  @media (min-width: 768px) {
+    .card {
+      width: 200px;
+      height: 200px;
+      margin: 0 auto;
+    }
+
+    .logo {
+      font-size: 2em;
+    }
+
+    .icon {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  /* Desktop screens */
+  /* Desktop screens */
+  @media (min-width: 768px) {
+    .home-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .home-section p {
+      margin-bottom: 20px;
+    }
+
+    .card {
+      margin-top: -70px;
+      width: 170px;
+      height: 110px;
+      margin-left: 110px;
+      margin-right: 20px;
+      color: #100505;
+    }
+  }
+
+  /* ends */
 
 
 
 
 
 
-/* button */
-button,
-button::after {
- padding: 16px 20px;
- font-size: 18px;
- background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
- border: 0;
- color: #fff;
- letter-spacing: 3px;
- line-height: 1;
- box-shadow: 6px 0px 0px #00e6f6;
- outline: transparent;
- position: relative;
-}
 
-button::after {
- --slice-0: inset(50% 50% 50% 50%);
- --slice-1: inset(80% -6px 0 0);
- --slice-2: inset(50% -6px 30% 0);
- --slice-3: inset(10% -6px 85% 0);
- --slice-4: inset(40% -6px 43% 0);
- --slice-5: inset(80% -6px 5% 0);
- content: "HOVER ME";
- display: block;
- position: absolute;
- top: 0;
- left: 0;
- right: 0;
- bottom: 0;
- background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
- text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
- clip-path: var(--slice-0);
-}
+  .card {
+    transition: transform 0.5s ease-in-out;
+  }
 
-button:hover::after {
- animation: 1s glitch;
- animation-timing-function: steps(2, end);
-}
+  .card.active {
+    transform: scale(1.1);
+  }
 
-@keyframes glitch {
- 0% {
-  clip-path: var(--slice-1);
-  transform: translate(-20px, -10px);
- }
+  .card.active {
+    /* Add styles here to open the card */
+    transform: scale(1.1);
 
- 10% {
-  clip-path: var(--slice-3);
-  transform: translate(10px, 10px);
- }
+    .box {
+      bottom: -1px;
+      left: -1px;
+    }
 
- 20% {
-  clip-path: var(--slice-1);
-  transform: translate(-10px, 10px);
- }
+    .logo {
+      transform: translate(70px, -52px);
+      letter-spacing: 0px;
+    }
+  }
 
- 30% {
-  clip-path: var(--slice-3);
-  transform: translate(0px, 5px);
- }
 
- 40% {
-  clip-path: var(--slice-2);
-  transform: translate(-5px, 0px);
- }
 
- 50% {
-  clip-path: var(--slice-3);
-  transform: translate(5px, 0px);
- }
 
- 60% {
-  clip-path: var(--slice-4);
-  transform: translate(5px, 10px);
- }
 
- 70% {
-  clip-path: var(--slice-2);
-  transform: translate(-10px, 10px);
- }
 
- 80% {
-  clip-path: var(--slice-5);
-  transform: translate(20px, -10px);
- }
+  /* button */
+  button,
+  button::after {
+    padding: 16px 20px;
+    font-size: 18px;
+    background: linear-gradient(45deg, transparent 5%, #ff013c 5%);
+    border: 0;
+    color: #fff;
+    letter-spacing: 3px;
+    line-height: 1;
+    box-shadow: 6px 0px 0px #00e6f6;
+    outline: transparent;
+    position: relative;
+  }
 
- 90% {
-  clip-path: var(--slice-1);
-  transform: translate(-10px, 0px);
- }
+  button::after {
+    --slice-0: inset(50% 50% 50% 50%);
+    --slice-1: inset(80% -6px 0 0);
+    --slice-2: inset(50% -6px 30% 0);
+    --slice-3: inset(10% -6px 85% 0);
+    --slice-4: inset(40% -6px 43% 0);
+    --slice-5: inset(80% -6px 5% 0);
+    content: "HOVER ME";
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(45deg, transparent 3%, #00e6f6 3%, #00e6f6 5%, #ff013c 5%);
+    text-shadow: -3px -3px 0px #f8f005, 3px 3px 0px #00e6f6;
+    clip-path: var(--slice-0);
+  }
 
- 100% {
-  clip-path: var(--slice-1);
-  transform: translate(0);
- }
-}
+  button:hover::after {
+    animation: 1s glitch;
+    animation-timing-function: steps(2, end);
+  }
 
-  </style>
+  @keyframes glitch {
+    0% {
+      clip-path: var(--slice-1);
+      transform: translate(-20px, -10px);
+    }
+
+    10% {
+      clip-path: var(--slice-3);
+      transform: translate(10px, 10px);
+    }
+
+    20% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 10px);
+    }
+
+    30% {
+      clip-path: var(--slice-3);
+      transform: translate(0px, 5px);
+    }
+
+    40% {
+      clip-path: var(--slice-2);
+      transform: translate(-5px, 0px);
+    }
+
+    50% {
+      clip-path: var(--slice-3);
+      transform: translate(5px, 0px);
+    }
+
+    60% {
+      clip-path: var(--slice-4);
+      transform: translate(5px, 10px);
+    }
+
+    70% {
+      clip-path: var(--slice-2);
+      transform: translate(-10px, 10px);
+    }
+
+    80% {
+      clip-path: var(--slice-5);
+      transform: translate(20px, -10px);
+    }
+
+    90% {
+      clip-path: var(--slice-1);
+      transform: translate(-10px, 0px);
+    }
+
+    100% {
+      clip-path: var(--slice-1);
+      transform: translate(0);
+    }
+  }
+
+  .fb-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    margin-left: -60px;
+    object-fit: cover;
+  }
+
+
+  #podcast-section {
+    background-color: #f7f7f7;
+    padding: 50px 0;
+  }
+
+  #podcast-section .about {
+    margin-bottom: 30px;
+  }
+
+  #podcast-section .about h1 {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+  }
+
+  #podcast-section .video-item {
+    background-color: #fff;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  #podcast-section .video-item .fb-video {
+    width: 100%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+
+  #podcast-section .video-item .video-details {
+    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 10px;
+  }
+
+  #podcast-section .video-item .video-details a {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  #podcast-section .video-item .video-details a:hover {
+    color: #ccc;
+  }
+
+  @media (max-width: 768px) {
+    #video-section .video-item {
+      margin-bottom: 20px;
+    }
+  }
+
+
+
+
+
+
+
+
+
+
+  /* From Uiverse.io by mobinkakei */
+  .wrapper {
+    width: 200px;
+    height: 60px;
+    position: relative;
+    z-index: 1;
+  }
+
+  .circle {
+    width: 20px;
+    height: 20px;
+    position: absolute;
+    border-radius: 50%;
+    background-color: #0a0a0a;
+    left: 15%;
+    transform-origin: 50%;
+    animation: circle7124 .5s alternate infinite ease;
+  }
+
+  @keyframes circle7124 {
+    0% {
+      top: 60px;
+      height: 5px;
+      border-radius: 50px 50px 25px 25px;
+      transform: scaleX(1.7);
+    }
+
+    40% {
+      height: 20px;
+      border-radius: 50%;
+      transform: scaleX(1);
+    }
+
+    100% {
+      top: 0%;
+    }
+  }
+
+  .circle:nth-child(2) {
+    left: 45%;
+    animation-delay: .2s;
+  }
+
+  .circle:nth-child(3) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+  }
+
+  .shadow {
+    width: 20px;
+    height: 4px;
+    border-radius: 50%;
+    background-color: rgba(0, 0, 0, 0.9);
+    position: absolute;
+    top: 62px;
+    transform-origin: 50%;
+    z-index: -1;
+    left: 15%;
+    filter: blur(1px);
+    animation: shadow046 .5s alternate infinite ease;
+  }
+
+  @keyframes shadow046 {
+    0% {
+      transform: scaleX(1.5);
+    }
+
+    40% {
+      transform: scaleX(1);
+      opacity: .7;
+    }
+
+    100% {
+      transform: scaleX(.2);
+      opacity: .4;
+    }
+  }
+
+  .shadow:nth-child(4) {
+    left: 45%;
+    animation-delay: .2s
+  }
+
+  .shadow:nth-child(5) {
+    left: auto;
+    right: 15%;
+    animation-delay: .3s;
+  }
+</style>
+
+
 
 </html>
-
