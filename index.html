@@ -13,6 +13,7 @@
     crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
   <link rel="stylesheet" href="{% static 'css/Style.css' %}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 
 </head>
@@ -65,7 +66,7 @@
         <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
           <h1 class="first-section flicker">I'm <span>KIRAN PAUDEL</span></h1>
           <p class="fw-bold mt-2">
-            Sub Editor at Kantipur Media Group
+            Sub Editor at Kantipur Media Group 
             <br>
             <small> (Lead :- Judicial Affairs, Foreign Affairs, Legal reforms , Human Rights and Constitutional Bodies
               )| Researcher | Public Relation Officer | IT enthusiast</small>
@@ -122,52 +123,50 @@
   <!-- Home section ends -->
 
   <!-- About section start -->
-  <section class="my-5 mt-5" id="about">
-    <div class="about text-center">
-      <h1 class="fw-bold text-capitalize">About Me</h1>
-    </div>
-    <div class="container">
-      <div class="row align-items-center">
-        <div class="col-md-6">
-          <div class="flip-card mx-auto my-5 object-fit-cover">
-            <div class="flip-card-inner">
-              <div class="flip-card-front">
-                <img src="image/kiran_about.png" class="img-fluid about-img object-fit-cover" alt="Kiran Paudel">
-              </div>
-              <div class="flip-card-back">
-                <img src="image/k1.jpg" class="img-fluid about-img" alt="Kiran Paudel">
-              </div>
+<section class="my-5 mt-5" id="about">
+  <div class="about text-center">
+    <h1 class="fw-bold text-capitalize">About Me</h1>
+  </div>
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <div class="flip-card mx-auto my-5 object-fit-cover">
+          <div class="flip-card-inner">
+            <div class="flip-card-front">
+              <img src="image/kiran_about.png" class="img-fluid about-img object-fit-cover" alt="Kiran Paudel">
             </div>
-          </div>
-
-          <!-- <img src="{% static 'images/kiran_about.png' %}" class="img-fluid about-img" alt="Kiran Paudel"> -->
-        </div>
-        <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
-          <div class="about-text">
-            <p class="text-start">
-              I am a versatile professional, primarily a journalist, content creator, and researcher with a passion for
-              storytelling and uncovering facts. Currently, I lead the coverage of Judicial Affairs, Foreign Affairs,
-              Constitutional Bodies, and Diplomacy at Kantipur Television.
-            </p>
-            <p class="text-start">
-              In the past, I have led political, administrative, judicial, and diplomatic affairs at Annapurna Media
-              Network (AP1 HD) and Annapurna Express. A graduate of Computer Application from Tribhuvan University, my
-              background in information technology enhances my ability to bridge the gap between technology and
-              effective communication, allowing me to explore the dynamic relationship between technology and society.
-            </p>
-            <!-- <a href="https://kantipurtv.com/author/kiran-poudel/" class="button btn-outline-success mx-auto" data-bs-toggle="tooltip" data-bs-title="Bibliography" target="_blank" rel="noopener noreferrer">View Bibliography</a> -->
-            <!-- From Uiverse.io by namecho -->
-            <a href="https://kantipurtv.com/author/kiran-poudel/" target="_blank" rel="noopener noreferrer">
-              <button data-bs-toggle="tooltip" data-bs-title="Bibliography">
-                View Bibliography
-              </button>
-            </a>
+            <div class="flip-card-back">
+              <img src="image/k1.jpg" class="img-fluid about-img" alt="Kiran Paudel">
+            </div>
           </div>
         </div>
       </div>
+      <div class="col-md-6 d-flex justify-content-center align-items-center flex-column">
+        <div class="about-text">
+          <p class="text-start">
+            I am a versatile professional with expertise in journalism, legal research, content creation, and investigative reporting, driven by a deep passion for storytelling and uncovering facts.
+            Currently, I lead the editorial coverage of Judicial Affairs, Foreign Affairs, Constitutional Bodies, and Diplomacy at Kantipur Television, Nepal's leading media organization. In this role, I also work as a legal researcher and judgment interpreter, analyzing and breaking down complex court decisions to inform and engage the public.
+          </p>
+          <div id="moreContent" style="display: none;">
+            <p class="text-start">
+              Previously, I led coverage of political, administrative, judicial, and diplomatic affairs at Annapurna Media Network(AP1 HD and The Annapurna Express), contributing to impactful investigative journalism and in-depth reporting on national issues.
+              I hold a Bachelor's degree in Computer Applications from Tribhuvan University, which enables me to bridge the gap between technology and effective communication. My IT background enhances my ability to explore the dynamic relationship between law, policy, technology, and society.
+            </p>
+          </div>
+          <button class="my-5 mx-auto" id="seeMoreBtn" onclick="toggleContent()">See More</button>
+          
+          <a href="https://kantipurtv.com/author/kiran-poudel/" target="_blank" rel="noopener noreferrer">
+            <button data-bs-toggle="tooltip" data-bs-title="Bibliography">
+              View Bibliography
+            </button>
+          </a>
+        </div>
+      </div>
     </div>
-  </section>
-  <!-- About section end -->
+  </div>
+</section>
+<!-- About section end -->
+
 
 
   <!-- video section start -->
@@ -228,11 +227,36 @@
             </div>
           </div>
         </div>
+        <div class="col-md-6 mb-4">
+          <div class="video-item">
+            <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/4feTVtouuhE"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-details">
+              <a href="https://www.youtube.com/watch?v=4feTVtouuhE">न्याय प्रणालीमा समस्या : वर्षौं मुद्दा लम्बिनेदेखि न्यायाधीश नियुक्तिमा स्वार्थ समूह हाबी हुने दाबी</a>
+            </div>
+          </div>
+        </div>
+      
+      <div class="col-md-6 mb-4">
+          <div class="video-item">
+            <iframe class="video-thumbnail" width="100%" height="315" src="https://www.youtube.com/embed/wXbzZKx3x0Y"
+              frameborder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen></iframe>
+            <div class="video-details">
+              <a href="https://www.youtube.com/watch?v=wXbzZKx3x0Y">कछुवा गतिमा फैसला कार्यान्वयन ! 
+                </a>
+            </div>
+          </div>
+        </div>
       </div>
+      
 
 
-    </div>
-  </section>
+  </div>
+</section>
   <!-- video section end -->
 
   <!-- Podcast section start -->
@@ -247,7 +271,7 @@
             target="_blank" rel="noopener noreferrer" class="podcast-link"
             style="text-decoration: none; color: inherit;">
             <div class="video-item" style="cursor: pointer;">
-              <img src="image/thumnail1.JPG" alt="Podcast about scam story with ship in courtyard"
+              <img src="image/thumnail2.JPG" alt="Podcast about scam story with ship in courtyard"
                 class="img-fluid rounded" style="width: 100%; height: auto; border-radius: 10px;">
               <div class="video-details mt-2 text-center">
                 <h3>आँगनमा जहाज राखेर उडानको सपना देखाउँदै ठगी गर्नेको वृत्तान्तव्यस्त शहरको बीचमा ठूलो बोर्ड राखेर एउटा
@@ -261,7 +285,7 @@
             target="_blank" rel="noopener noreferrer" class="podcast-link"
             style="text-decoration: none; color: inherit;">
             <div class="video-item" style="cursor: pointer;">
-              <img src="image/thumnail2.JPG" alt="Podcast about transportation business syndicate reemergence"
+              <img src="image/thumnail1.JPG" alt="Podcast about transportation business syndicate reemergence"
                 class="img-fluid rounded" style="width: 100%; height: auto; border-radius: 10px;">
               <div class="video-details mt-2 text-center">
                 <h3>यातायात व्यवसायमा सिन्डिकेटको पुनरागमन: यसरी उल्लंघन भयो संविधान र सर्वोच्च</h3>
@@ -275,50 +299,202 @@
   <!-- podcast section end -->
 
 
-  <!-- Education section  -->
-  <section class="my-5" id="Education">
-    <h1 class="text-center text-bold"> Education</h1>
+ 
+<!-- Education section start -->
+<section class="my-5" id="education">
+  <h1 class="text-center text-bold">Education</h1>
+  <div class="timeline-container">
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>📚 Secondary Education Examination (SEE)</h3>
+        <p>Successfully completed secondary education with core subjects including Science, Mathematics, English, Nepali, and Social Studies, developing essential academic and problem-solving skills.</p>
+        <div class="date">
+          <i class="far fa-calendar-alt"></i>
+          <span>- 2017</span>
+        </div>
+        <a href="#" class="view-more" data-title="Secondary Education Examination (SEE)" data-content="Successfully completed secondary education with core subjects including Science, Mathematics, English, Nepali, and Social Studies, developing essential academic and problem-solving skills. Ganga (Sec) School - Nepal Education Board (NEB)">View More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>🎓 Intermediate on Science</h3>
+        <p>Completed a two-year pre-university program with a core focus on Physics, Chemistry, Mathematics/Biology, and English, providing a strong foundation in scientific reasoning and analytical thinking for further studies in science and technology.</p>
+        <div class="date">
+          <i class="far fa-calendar-alt"></i>
+          <span>- 2020</span>
+        </div>
+        <a href="#" class="view-more" data-title="Intermediate on Science" data-content="Completed a two-year pre-university program with a core focus on Physics, Chemistry, Mathematics/Biology, and English, providing a strong foundation in scientific reasoning and analytical thinking for further studies in science and technology. Trinity Int’l College - Nepal Education Board (NEB)">View More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+    <div class="timeline-item">
+      <div class="timeline-content">
+        <h3>💻 Bachelor of Computer Application (BCA)</h3>
+        <p>A four-year undergraduate program focusing on computer programming, software development, web technologies, database systems, and networking. The course blends technical skills with analytical thinking, preparing graduates for roles in IT, digital communication, and software development.</p>
+        <div class="date">
+          <i class="far fa-calendar-alt"></i>
+          <span>- 2025</span>
+        </div>
+        <a href="#" class="view-more" data-title="Bachelor of Computer Application (BCA)" data-content="A four-year undergraduate program focusing on computer programming, software development, web technologies, database systems, and networking. The course blends technical skills with analytical thinking, preparing graduates for roles in IT, digital communication, and software development. United College - Tribhuvan University (TU)">View More <i class="fas fa-arrow-right"></i></a>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay"></div>
+  <div class="popup">
+    <h3 id="popup-title"></h3>
+    <p id="popup-content"></p>
+    <div class="popup-close">
+      <a href="#" id="popup-close">Close</a>
+    </div>
+  </div>
+</section>
+<!-- Education section end -->
+<style>
+  /* CSS for Timeline and Popup */
+.timeline-container {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+}
+
+.popup-close {
+  margin-top: 10px;
+}
+
+.popup-close a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popup-close a:hover {
+  text-decoration: underline;
+}
+
+</style>
+
+
+<!-- education section script -->
+ <script>
+document.querySelectorAll('.view-more').forEach(item => {
+  item.addEventListener('click', event => {
+    event.preventDefault();
+    const title = item.getAttribute('data-title');
+    const content = item.getAttribute('data-content');
+    document.getElementById('popup-title').innerText = title;
+    document.getElementById('popup-content').innerHTML = content;
+    document.querySelector('.overlay').style.display = 'block';
+    document.querySelector('.popup').style.display = 'block';
+  });
+});
+
+document.getElementById('popup-close').addEventListener('click', event => {
+  event.preventDefault();
+  document.querySelector('.overlay').style.display = 'none';
+  document.querySelector('.popup').style.display = 'none';
+});
+</script>
+
+
+
+
+
+  <!-- Honours and Awards section start -->
+  <section class="my-5" id="honours-awards">
+    <h1 class="text-center text-bold">Honours and Awards</h1>
     <div class="timeline-container">
       <div class="timeline-item">
         <div class="timeline-content">
-          <h3>SEE</h3>
-          <p>Ganga sec. school<br>High School</p>
+          <h3>🏆 Legal Journalism Award (2022-025)</h3>
+          <p>Honored as the youngest journalist in Nepal to receive this prestigious recognition for excellence in legal reporting...</p>
           <div class="date">
             <i class="far fa-calendar-alt"></i>
-            <span>- 2017</span>
+            <span>- 2025</span>
           </div>
-          <a href="#" class="view-more" data-title="SEE" data-content="Ganga sec. school<br>High School<br>- 2017">View
-            More <i class="fas fa-arrow-right"></i></a>
-        </div>
-        <div class="timeline-line">
-          <div class="timeline-dot"></div>
-          <div class="timeline-dot"></div>
-          <div class="timeline-dot"></div>
+          <a href="#" class="view-more" data-title="Legal Journalism Award" data-content="Honored as the youngest journalist in Nepal to receive this prestigious recognition for excellence in legal reporting. Awarded for in-depth and fearless journalism in the fields of judicial accountability, constitutional interpretation, and rule of law. This award celebrates sustained commitment to promoting transparency within Nepal’s legal system and contributing to public understanding of complex judicial affairs.">View More <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
       <div class="timeline-item">
         <div class="timeline-content">
-          <h3>Class 12th</h3>
-          <p>Trinity Int. College<br>Pre University College</p>
+          <h3>🎓 Special Waiver Selection by the Government of India</h3>
+          <p>Selected as the youngest participant for a specialized international training on Journalism and Public Relations...</p>
           <div class="date">
             <i class="far fa-calendar-alt"></i>
-            <span>- 2020</span>
+            <span>- 2025</span>
           </div>
-          <a href="#" class="view-more" data-title="Class 12th"
-            data-content="Trinity Int. College<br>Pre University College<br>- 2020">View More <i
-              class="fas fa-arrow-right"></i></a>
+          <a href="#" class="view-more" data-title="Special Waiver Selection" data-content="Selected as the youngest participant for a specialized international training on Journalism and Public Relations, held from 14th to 28th June 2025. Organized by the Government of India, the program waived its minimum age requirement of 25 in recognition of extensive professional experience and a proven track record in national media.">View More <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
       <div class="timeline-item">
         <div class="timeline-content">
-          <h3>College</h3>
-          <p>United College, Kumaripati</p>
+          <h3>🌍 Youngest Delegate Selected by the Ministry of Foreign Affairs (Nepal)</h3>
+          <p>Chosen by Nepal's Ministry of Foreign Affairs to observe post-earthquake recovery and humanitarian outreach in Myanmar...</p>
           <div class="date">
             <i class="far fa-calendar-alt"></i>
-            <span>2020 - 2025</span>
+            <span>- 2025</span>
           </div>
-          <a href="#" class="view-more" data-title="College"
-            data-content="United College, Kumaripati<br>2020 - 2024">View More <i class="fas fa-arrow-right"></i></a>
+          <a href="#" class="view-more" data-title="Youngest Delegate" data-content="Chosen by Nepal’s Ministry of Foreign Affairs to observe post-earthquake recovery and humanitarian outreach in Myanmar. Represented Nepal in handing over official relief materials and participated in diplomatic meetings as part of a goodwill mission, becoming the youngest-ever delegate to be appointed for such an international engagement.">View More <i class="fas fa-arrow-right"></i></a>
+        </div>
+      </div>
+      <div class="timeline-item">
+        <div class="timeline-content">
+          <h3>📰 Youngest Journalist Featured in DCOP by the Nepali Army</h3>
+          <p>Recognized as the youngest journalist to be invited and featured in the Defence Correspondent Orientation Program (DCOP)...</p>
+          <div class="date">
+            <i class="far fa-calendar-alt"></i>
+            <span>- 2025</span>
+          </div>
+          <a href="#" class="view-more" data-title="Youngest Journalist in DCOP" data-content="Recognized as the youngest journalist to be invited and featured in the Defence Correspondent Orientation Program (DCOP) conducted by the Nepali Army. Selected for exceptional reporting on security, governance, and national defence institutions, bridging the gap between media and military affairs with credibility, neutrality, and national interest at the core.">View More <i class="fas fa-arrow-right"></i></a>
         </div>
       </div>
     </div>
@@ -332,48 +508,104 @@
       </div>
     </div>
   </section>
-  <!-- end -->
-  <!-- Certifications & Achievements and Honors & Awards section start -->
-  <section class="my-6" id="certifications-awards" style="margin-top: 60px;">
-    <div class="about text-center">
-      <h1 class="fw-bold text-capitalize">Certifications & Achievements</h1>
-    </div>
-    <div class="container" style="max-width: 700px; margin-top: 30px;">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <strong>Coming Soon</strong>
-        </li>
+<!-- Honours and Awards section end -->
 
-      </ul>
-      <div class="wrapper">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="shadow"></div>
-        <div class="shadow"></div>
-        <div class="shadow"></div>
-      </div>
-    </div>
-    <div class="about text-center" style="margin-top: 60px;">
-      <h1 class="fw-bold text-capitalize">Honors & Awards</h1>
-    </div>
-    <div class="container" style="max-width: 700px; margin-top: 30px;">
-      <ul class="list-group list-group-flush">
-        <li class="list-group-item">
-          <strong>Coming Soon</strong>
-        </li>
 
-      </ul>
-      <div class="wrapper">
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="circle"></div>
-        <div class="shadow"></div>
-        <div class="shadow"></div>
-        <div class="shadow"></div>
-      </div>
-    </div>
-  </section>
+
+<!-- CSS for Timeline and Popup -->
+<style>
+.timeline-container {
+  position: relative;
+  padding: 20px 0;
+}
+
+.timeline-item {
+  position: relative;
+  margin: 20px 0;
+}
+
+.timeline-content {
+  background: #f9f9f9;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.date {
+  font-size: 0.9em;
+  color: #666;
+}
+
+.view-more {
+  display: inline-block;
+  margin-top: 10px;
+  color: #007bff;
+  text-decoration: none;
+}
+
+.view-more:hover {
+  text-decoration: underline;
+}
+
+.overlay {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.7);
+  z-index: 10;
+}
+
+.popup {
+  display: none;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 20;
+}
+
+.popup-close {
+  margin-top: 10px;
+}
+
+.popup-close a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.popup-close a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<!-- JavaScript for Popup Functionality -->
+<script>
+document.querySelectorAll('.view-more').forEach(item => {
+  item.addEventListener('click', event => {
+    event.preventDefault();
+    const title = item.getAttribute('data-title');
+    const content = item.getAttribute('data-content');
+    document.getElementById('popup-title').innerText = title;
+    document.getElementById('popup-content').innerHTML = content;
+    document.querySelector('.overlay').style.display = 'block';
+    document.querySelector('.popup').style.display = 'block';
+  });
+});
+
+document.getElementById('popup-close').addEventListener('click', event => {
+  event.preventDefault();
+  document.querySelector('.overlay').style.display = 'none';
+  document.querySelector('.popup').style.display = 'none';
+});
+</script>
+
   <!-- Certifications & Achievements and Honors & Awards section end -->
 
 
@@ -518,6 +750,23 @@
 
 
   </Script>
+
+  <script>
+    // JavaScript to toggle the visibility of the additional content
+function toggleContent() {
+  var moreContent = document.getElementById("moreContent");
+  var seeMoreBtn = document.getElementById("seeMoreBtn");
+  
+  if (moreContent.style.display === "none") {
+    moreContent.style.display = "block";
+    seeMoreBtn.innerText = "See Less";
+  } else {
+    moreContent.style.display = "none";
+    seeMoreBtn.innerText = "See More";
+  }
+}
+
+  </script>
 
 </body>
 
@@ -2284,6 +2533,8 @@
     right: 15%;
     animation-delay: .3s;
   }
+
+  
 </style>
 
 
